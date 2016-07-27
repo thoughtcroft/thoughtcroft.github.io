@@ -2,7 +2,8 @@
 layout: post
 title:  "Ninefold: taking control of cloud billing"
 date:   2011-01-25 21:14:02 +1000
-categories: cloud billing ninefold
+categories: ninefold
+tags: [cloud, billing, ninefold]
 ---
 At Ninefold, we first started looking at the cloud market and its
 possibilities in 2010.

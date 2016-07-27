@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Ninefold: A social cloud programming experiment"
+title:  "Ninefold: a social cloud programming experiment"
 date:   2012-04-16
-categories: cloud api programming ninefold
+categories: ninefold
+tags: [cloud, api, programming, ninefold]
 ---
 The cloud is a technological hub of remarkable innovation. However, an
 idea has been developing in my mind for some time: a cloud programming
