@@ -3,13 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+Warren Bain, better known as Wazza, is a seasoned IT veteran still on active duty.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+From pre personal computer days programming in assembler to infrastructure automation using Chef,
+Wazza has always been excited to learn new things and use those skills to solve problems.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+This blog is a possibly less than awesome attempt to share some of those things.
