@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Ninefold: taking control of cloud billing"
+title:  "Taking control of cloud billing"
 date:   2011-01-25 21:14:02 +1000
-categories: ninefold
 tags: [cloud, billing, ninefold]
 ---
+
+> Originally published when I worked at Ninefold, an Australian cloud
+> services provider I co-founded, that operated from 2010 - 2015.
+
 At Ninefold, we first started looking at the cloud market and its
 possibilities in 2010.
 

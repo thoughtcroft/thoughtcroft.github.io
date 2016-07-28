@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Ninefold: faster than a speeding byte"
+title:  "Faster than a speeding byte"
 date:   2011-02-11
-categories: ninefold
 tags: [cloud, latency, network, ninefold]
 ---
+
+> Originally published when I worked at Ninefold, an Australian cloud
+> services provider I co-founded, that operated from 2010 - 2015.
+
 There are a number of reasons why an Australian cloud server can be
 better for you than an offshore equivalent. However, latency is easily
 one of the most popular. So how much of a difference can it really make?

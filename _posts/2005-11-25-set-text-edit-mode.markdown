@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "VBA: text edit mode on fields made easy"
+title:  "Setting text edit mode on Access form fields made easy"
 date:   2005-11-25 15:34:00 +1000
-categories: vba
-tags: [vba, controls, textfield]
+tags:   [vba, controls, textfield, Access]
 ---
 The Locked and Enabled properties of text-based controls - combo boxes, check boxes, list boxes and text boxes
 - control whether they can be changed or entered. But for the life of me, I can never remember which combination
@@ -30,8 +29,7 @@ Public Enum TextEditMode
    temcNoEnterNormal = temcLockedTrue + temcEnabledFalse
    temcNoEnterDimmed = temcLockedFalse + temcEnabledFalse
 End Enum
-```
-```vb
+
 Public Function SetTextEditMode( _
    ByRef ctl As Control, _
    Optional ByVal temMode As TextEditMode) As TextEditMode

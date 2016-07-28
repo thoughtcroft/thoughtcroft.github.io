@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "VBA: finding the name of a control in a subform"
+title:  "Finding the name of a control in an Access subform"
 date:   2005-11-25 12:06:00 +1000
-categories: vba
-tags: [form, subform, control, vba]
+tags:   [form, subform, control, vba]
 ---
 I'm currently developing a Microsoft Access based system and found
 myself continually needing to work out how to access a property of the
@@ -27,8 +26,7 @@ Public Enum ControlNameFormat
    cnfcShortPropertyName
    cnfcLongHierarchicalName
 End Enum
-```
-```vb
+
 Public Function GetSubFormControlName( _
    ByRef frm As Form, _
    Optional ByVal NameFormat As ControlNameFormat = _
@@ -86,8 +84,7 @@ Public Function GetSubFormControlName( _
    End If
    GetSubFormControlName = strResult
 End Function
-```
-```vb
+
 Private Function IsSubForm(frm As Form) As Boolean
    ' Is the form currently loaded as a subform?
    Dim strFormName As String

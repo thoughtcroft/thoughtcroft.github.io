@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "VBA: error referring to excel sheets collection by sheet name"
+title:  "Error when referring to Excel sheets collection by sheet name"
 date:   2006-07-21 10:15:00 +1000
-categories: vba
-tags: [vba, excel, worksheet, collection, bug]
+tags:   [vba, excel, worksheet, collection, bug]
 ---
+
 I've just had a frustrating couple of hours dealing with what appears to
 be a bug in the Excel Sheets collection when accessed from an Access VBA
 module. The application is an Access 2000 database reading data from an
