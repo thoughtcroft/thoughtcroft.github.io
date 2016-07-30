@@ -2,7 +2,7 @@
 layout: post
 title:  "Finding the name of a control in an Access subform"
 date:   2005-11-25 12:06:00 +1000
-tags:   [form, subform, control, vba]
+tags:   [access, form, subform, control, vba]
 ---
 I'm currently developing a Microsoft Access based system and found
 myself continually needing to work out how to access a property of the

@@ -6,17 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: wazza is awesome
-email: warren@thoughtcroft.com
-author: Warren Bain
+title:              wazza is awesome
+email:              warren@thoughtcroft.com
+author:             Warren Bain
 description: > # this means to ignore newlines until "baseurl:"
   Warren Bain's vainglorious attempt to prove his general awesomeness.
   Then again, people actually rated him for that on LinkedIn.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://wazza-is-awesome.com" # the base hostname & protocol for your site
-twitter_username: thoughtcroft
-github_username: thoughtcroft
-linkedin_username: warrenbain
+baseurl:            "" # the subpath of your site, e.g. /blog
+url:                "http://wazza-is-awesome.com" # the base hostname & protocol for your site
+twitter_username:   thoughtcroft
+github_username:    thoughtcroft
+linkedin_username:  warrenbain
 
 # Build settings
-markdown: kramdown
+markdown:           kramdown
+
+# Tags
+tag_page_layout:    tag_page
+tag_page_dir:       tag
