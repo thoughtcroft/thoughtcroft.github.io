@@ -2,7 +2,7 @@
 layout: post
 title:  "Faster than a speeding byte"
 date:   2011-02-11
-tags: [cloud, latency, network, ninefold]
+tags:   [cloud, latency, network, ninefold]
 ---
 
 > Originally published when I worked at Ninefold, an Australian cloud

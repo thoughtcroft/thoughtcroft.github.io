@@ -2,8 +2,9 @@
 layout: post
 title:  "Calculating compound annual growth rate (CAGR)"
 date:   2005-11-30 10:28:00 +1000
-tags:   [vba, excel, udf, financial]
+tags:   [cagr, excel, udf, vba]
 ---
+
 Microsoft Excel comes with a lot of inbuilt functions that can be used
 in cell formulae and there are also a number of add-ins that provide
 specialised sets of functions to support statistical, numerical and

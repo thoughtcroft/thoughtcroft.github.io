@@ -2,7 +2,7 @@
 layout: post
 title:  "Error when referring to Excel sheets collection by sheet name"
 date:   2006-07-21 10:15:00 +1000
-tags:   [vba, excel, worksheet, collection, bug]
+tags:   [excel, worksheet, vba]
 ---
 
 I've just had a frustrating couple of hours dealing with what appears to

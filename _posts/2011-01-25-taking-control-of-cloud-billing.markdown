@@ -2,7 +2,7 @@
 layout: post
 title:  "Taking control of cloud billing"
 date:   2011-01-25 21:14:02 +1000
-tags: [cloud, billing, ninefold]
+tags:   [billing, cloud, ninefold]
 ---
 
 > Originally published when I worked at Ninefold, an Australian cloud

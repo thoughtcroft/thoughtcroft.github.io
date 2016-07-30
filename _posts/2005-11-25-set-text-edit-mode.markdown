@@ -2,8 +2,9 @@
 layout: post
 title:  "Setting text edit mode on Access form fields made easy"
 date:   2005-11-25 15:34:00 +1000
-tags:   [vba, controls, textfield, Access]
+tags:   [access, control, form, textfield, vba]
 ---
+
 The Locked and Enabled properties of text-based controls - combo boxes, check boxes, list boxes and text boxes
 - control whether they can be changed or entered. But for the life of me, I can never remember which combination
 of true and false values gives me the look I am after. For example, `Enabled=Yes` and `Locked=Yes` means the text

@@ -2,7 +2,7 @@
 layout: post
 title:  "Generic function to copy Excel data between workbooks"
 date:   2007-10-12 15:33:00 +1000
-tags:   [vba, excel, function, workbook]
+tags:   [excel, workbook, vba]
 ---
 
 I needed way to ensure that some Excel workbooks that were being

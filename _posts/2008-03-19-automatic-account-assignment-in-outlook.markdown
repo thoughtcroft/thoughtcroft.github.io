@@ -2,7 +2,7 @@
 layout: post
 title:  "Automatic email account assignment in Outlook"
 date:   2008-03-19 15:33:00 +1000
-tags:   [vba, email, outlook, account]
+tags:   [email, outlook, vba]
 ---
 
 I use Google Apps to host my family's and my private company's email but

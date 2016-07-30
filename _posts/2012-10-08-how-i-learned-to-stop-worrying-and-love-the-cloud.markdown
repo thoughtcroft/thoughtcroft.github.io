@@ -2,7 +2,7 @@
 layout: post
 title:  "How I learned to stop worrying and love the cloud"
 date:   2012-10-08 23:14:00 +1000
-tags: [cloud, programming, ninefold, ruby, railscamp]
+tags:   [cloud, ninefold, programming, ruby]
 ---
 
 *Originally published at Ninefold (2010-2015), a cloud

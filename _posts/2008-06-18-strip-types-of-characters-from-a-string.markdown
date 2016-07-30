@@ -2,7 +2,7 @@
 layout: post
 title:  "Strip different types of characters from a string"
 date:   2008-06-18 10:53:00 +1000
-tags:   [vba, string, character, strip]
+tags:   [excel, string, vba]
 ---
 
 I realised that one of my earlier posts Generic Function to Copy Excel
