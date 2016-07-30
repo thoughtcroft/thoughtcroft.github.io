@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+
 Warren Bain, better known as Wazza, is a seasoned IT veteran still on active duty.
 
 * before there were personal computers, he wrote IBM/360 assembler
