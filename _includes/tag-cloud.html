@@ -1,0 +1,13 @@
+<div class="tag_cloud">
+
+  {% assign tags = site.tags | sort %}
+  {% assign max_tags = 0 %}
+  {% for tag in tags %}
+    {% if tag.last.size > max_tags %} {% assign max_tags = tag.last.size %} {% endif %}
+  {% endfor %}
+  {% assign hmax_tags = max_tags | divided_by: 2 %}
+
+  {% for tag in tags %}<span class="site-tag"><a href="/tag/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size | times: 1.5 | minus: hmax_tags | divided_by: max_tags | plus: 1 | times: 150 }}%">{{ tag[0] | replace:'-', ' ' }}</a></span>&nbsp;
+  {% endfor %}
+
+</div>

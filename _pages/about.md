@@ -11,13 +11,11 @@ Warren Bain, better known as Wazza, is a seasoned IT veteran still on active dut
 * Ruby scripting, app and gem develoopment
 * infrastructure automation using Chef, Docker and Vagrant
 
-Wazza has always been excited to learn new things and use them to solve real business problems.
+Wazza has always been excited to learn new things and use them to solve real business problems. More than a technologist, Wazza also
 
-More than a technologist, Wazza also
-
-* writes business cases
-* presents at the C & Board level
+* writes business cases that get approved
+* presents at the C & Board level and everywhere below
 * delivers conference talks
-* shares his knowledge and experience through consulting and mentoring
+* shares his knowledge and experience via consulting and mentoring
 
 This blog shares some of the things Wazza has learned along the way.

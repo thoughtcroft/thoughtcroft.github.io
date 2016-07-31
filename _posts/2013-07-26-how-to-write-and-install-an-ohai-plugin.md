@@ -54,7 +54,7 @@ But never fear, Wazza is here to take you through it, one step at a time
 
 ### Step 1 – create a new cookbook
 
-Here's one I created earlier: [chef-ninefold-ohai](https://github.com/ninefold/chef-ninefold-ohai).
+Here's one I created earlier: [chef-ninefold-ohai](https://github.com/thoughtcroft/chef-ninefold-ohai).
 Feel free to fork this for your own use. The key things here are the plugin file itself in
 `/files/default/plugins/ninefold.rb` and the default recipe which will do
 the installation on the node `/recipes/default.rb`

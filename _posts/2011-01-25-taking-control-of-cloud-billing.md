@@ -65,9 +65,8 @@ fluctuations add additional uncertainty.
 
 We get it.
 
-So when we built
-Ninefold, we made sure that our customers had the tools to manage their
-cloud usage.
+So when we built Ninefold, we made sure that our customers had
+the tools to manage their cloud usage.
 
 You can organise your cloud resources into projects, the
 same way that you organise your business. Those projects can be given a

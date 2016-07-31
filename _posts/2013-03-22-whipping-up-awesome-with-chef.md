@@ -25,7 +25,7 @@ challenges:
 * managing Ninefold's expanding infrastructure without expanding our ops
   team at the same rate;
 * providing simple to use app deployment for our customers that also
-* allows them to leverage the full power of our production grade
+  allows them to leverage the full power of our production grade
   multi-zone infrastructure.
 
 Here's the quick explanation of Chef: **your infrastructure as code**.
@@ -103,8 +103,8 @@ attributes exist before you use them.  Two methods are:
 
 ```ruby
 if node.attribute?('version')
-  # there is some attribute somewhere called 'version' so perhaps not
-the best
+  # there is some attribute somewhere called 'version'
+  # perhaps not the best method
 end
 
 if node['my_cookbook']['app'] && node['my_cookbook']['app']['version']
@@ -127,7 +127,9 @@ and requires you to place the relevant knife.rb, chef-validator.pem and
 client.pem files into each project. But then if you want to push a
 cookbook that you are working on from your development chef to your
 testing chef, there is a spot of juggling required. That is until you
-install the knife-block plugin by Green and Secure IT Limited.
+install the
+[knife-block plugin](https://github.com/knife-block/knife-block)
+by Green and Secure IT Limited.
 
 Place all your knife.rb and .pem files into your /home/.chef/ directory
 and rename each knife.rb file as knife-{something}.rb e.g. knife-dev.rb,
