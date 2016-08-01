@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tag Cloud
-permalink: /tags/
+permalink: /tag/
 ---
 
 {% include tag-cloud.html %}

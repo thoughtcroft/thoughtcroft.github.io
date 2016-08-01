@@ -7,7 +7,7 @@
   {% endfor %}
   {% assign hmax_tags = max_tags | divided_by: 2 %}
 
-  {% for tag in tags %}<span class="site-tag"><a href="/tag/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size | times: 1.5 | minus: hmax_tags | divided_by: max_tags | plus: 1 | times: 150 }}%">{{ tag[0] | replace:'-', ' ' }}</a></span>&nbsp;
+  {% for tag in tags %}<span class="site-tag"><a href="/tag/{{ tag | first | slugify }}.html" style="font-size: {{ tag | last | size | times: 1.5 | minus: hmax_tags | divided_by: max_tags | plus: 1 | times: 150 | round }}%">{{ tag[0] | replace:'-', ' ' }}</a></span>&nbsp;
   {% endfor %}
 
 </div>
