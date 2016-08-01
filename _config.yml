@@ -29,3 +29,7 @@ tag_page_dir:       tag
 
 # Disqus
 disqus_id:          'wazza-is-awesome'
+
+# Google
+google_analytics:   'UA-81713354-1'
+
