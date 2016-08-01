@@ -81,11 +81,15 @@ Ninefold usage data using Highcharts.
 
 From:
 
-```ruby puts "Hello World!" ```
+```ruby
+puts "Hello World!"
+```
 
 To:
 
-```ruby @exclude ||= "AND t.account_id NOT IN (#{exclusions.map { |a|
-"'#{a}'" }.join(",") })" unless exclusions.nil?  ```
+```ruby
+@exclude ||= "AND t.account_id NOT IN (
+  #{exclusions.map { |a| "'#{a}'" }.join(",") })" unless exclusions.nil?
+```
 
 I have evolved…
