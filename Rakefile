@@ -52,6 +52,5 @@ end
 
 desc "Generate and serve locally"
 task :serve do
-  Rake::Task["generate"].invoke("development")
   system "bundle exec jekyll serve"
 end
