@@ -1,7 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    backports (3.6.8)
     colorator (0.1)
+    fast-stemmer (1.0.2)
     fastercsv (1.5.5)
     ffi (1.9.14)
     jekyll (3.1.6)
@@ -17,6 +19,15 @@ GEM
       fastercsv
       jekyll (>= 1.4)
       nokogiri
+    jekyll-related-posts (0.1.1)
+      fast-stemmer (~> 1.0)
+      jekyll (~> 3.0)
+      liquid (~> 3.0)
+      nmatrix (~> 0.2)
+      nmatrix-lapacke (~> 0.2)
+      pqueue (~> 2.1)
+      stopwords-filter (~> 0.3)
+      tokenizer (~> 0.1)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-tagging (1.0.1)
@@ -30,11 +41,18 @@ GEM
       rb-inotify (>= 0.9.7)
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
+    nmatrix (0.2.3)
+      packable (~> 1.3, >= 1.3.5)
+    nmatrix-lapacke (0.2.3)
+      nmatrix (= 0.2.3)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     nuggets (1.0.0)
+    packable (1.3.8)
+      backports
     pkg-config (1.1.7)
+    pqueue (2.1.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -43,6 +61,8 @@ GEM
       nuggets (= 1.0.0)
     safe_yaml (1.0.4)
     sass (3.4.22)
+    stopwords-filter (0.3.1)
+    tokenizer (0.3.0)
 
 PLATFORMS
   ruby
@@ -50,6 +70,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-import
+  jekyll-related-posts
   jekyll-tagging
   kramdown
 
