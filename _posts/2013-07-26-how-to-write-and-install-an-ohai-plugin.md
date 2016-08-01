@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to write and install an Ohai plugin, the Fight Club way"
-date:   2013-07-26 11:43:39 +1000
+date:   2013-07-26
 tags:   [chef, cloud, infrastructure, ninefold, ohai, plugin, programming, ruby]
 ---
 

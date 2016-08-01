@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Whipping up awesome with Chef"
-date:   2013-03-22 00:26:45 +1000
+date:   2013-03-22
 tags:   [automation, chef, cloud, devops, infrastructure, ninefold]
 ---
 

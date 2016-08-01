@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Automatic email account assignment in Outlook"
-date:   2008-03-19 15:33:00 +1000
+date:   2008-03-19
 tags:   [email, outlook, vba]
 ---
 

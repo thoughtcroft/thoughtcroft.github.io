@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Error when referring to Excel sheets collection by sheet name"
-date:   2006-07-21 10:15:00 +1000
+date:   2006-07-21
 tags:   [excel, worksheet, vba]
 ---
 

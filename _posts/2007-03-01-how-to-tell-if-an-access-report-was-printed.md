@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to tell if an Access Report was printed"
-date:   2007-03-01 16:54:00 +1000
+date:   2007-03-01
 tags:   [access, report, vba]
 ---
 

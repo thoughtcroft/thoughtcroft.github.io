@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Calculating compound annual growth rate (CAGR)"
-date:   2005-11-30 10:28:00 +1000
+date:   2005-11-30
 tags:   [cagr, excel, udf, vba]
 ---
 

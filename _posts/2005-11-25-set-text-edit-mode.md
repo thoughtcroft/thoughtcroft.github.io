@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting text edit mode on Access form fields made easy"
-date:   2005-11-25 15:34:00 +1000
+date:   2005-11-25
 tags:   [access, control, form, textfield, vba]
 ---
 

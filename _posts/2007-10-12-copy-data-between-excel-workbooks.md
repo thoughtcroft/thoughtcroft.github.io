@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Generic function to copy Excel data between workbooks"
-date:   2007-10-12 15:33:00 +1000
+date:   2007-10-12
 tags:   [excel, workbook, vba]
 ---
 

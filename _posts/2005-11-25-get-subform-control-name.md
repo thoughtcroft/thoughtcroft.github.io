@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Finding the name of a control in an Access subform"
-date:   2005-11-25 12:06:00 +1000
+date:   2005-11-25
 tags:   [access, form, subform, vba]
 ---
 

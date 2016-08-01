@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How I learned to stop worrying and love the cloud"
-date:   2012-10-08 23:14:00 +1000
+date:   2012-10-08
 tags:   [cloud, ninefold, programming, ruby]
 ---
 

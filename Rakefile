@@ -8,6 +8,28 @@ require 'jekyll'
 
 task :default => :serve
 
+desc "Create new blog post args: title, date (optional)"
+task :post do
+  title = ENV['title'] || "New Post"
+  slug = title.gsub(' ','-').downcase
+  date = ENV['date'] || Time.new.strftime('%Y-%m-%d')
+  filename = "#{date}-#{slug}.md"
+  path = File.join('_posts', filename)
+  editor = ENV['EDITOR'] || "vim"
+
+  post = <<-"EOF"
+---
+layout: post
+title:  "#{title}"
+date:   #{date}
+tags:   []
+---
+
+EOF
+  File.open(path, 'w') { |f| f.puts post }
+  exec "#{editor} #{path}"
+end
+
 desc "Generate blog files"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
@@ -28,7 +50,6 @@ task :publish => [:generate] do
     system "git commit -am #{message.shellescape}"
     system "git push origin master --force"
     system "git checkout source"
-    system "echo yolo"
   end
 end
 

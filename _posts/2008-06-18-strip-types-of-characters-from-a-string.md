@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Strip different types of characters from a string"
-date:   2008-06-18 10:53:00 +1000
+date:   2008-06-18
 tags:   [excel, string, vba]
 ---
 
