@@ -30,12 +30,13 @@ end
 
 desc "Generate blog files"
 task :generate, [:env] do |task, args|
-  env = args.env || 'development'
-  system "JEKYLL_ENV=#{env.downcase} bundle exec jekyll build"
+  env = args.env.downcase || 'development'
+  system "JEKYLL_ENV=#{env} bundle exec jekyll build"
 end
 
 desc "Generate and publish blog to gh-pages"
 task :publish do
+  abort 'Please commit changes first!' if is_dirty?
   Rake::Task["generate"].invoke("production")
   Dir.mktmpdir do |tmp|
     system "mv _site/* #{tmp}"
@@ -52,5 +53,9 @@ end
 
 desc "Generate and serve locally"
 task :serve do
-  system "bundle exec jekyll serve"
+  system "JEKYLL_ENV=development bundle exec jekyll serve"
+end
+
+def is_dirty?
+  ! %x(git status -s).empty?
 end
