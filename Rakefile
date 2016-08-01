@@ -29,7 +29,7 @@ EOF
 end
 
 desc "Generate blog files"
-task :generate, [:env] do
+task :generate, [:env] do |task, args|
   env = args.env || 'development'
   system "JEKYLL_ENV=#{env.downcase} bundle exec jekyll build"
 end
