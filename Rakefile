@@ -29,12 +29,14 @@ EOF
 end
 
 desc "Generate blog files"
-task :generate do
-  system "bundle exec jekyll build"
+task :generate, [:env] do
+  env = args.env || 'development'
+  system "JEKYLL_ENV=#{env.downcase} bundle exec jekyll build"
 end
 
 desc "Generate and publish blog to gh-pages"
-task :publish => [:generate] do
+task :publish do
+  Rake::Task["generate"].invoke("production")
   Dir.mktmpdir do |tmp|
     system "mv _site/* #{tmp}"
     system "git checkout -B master"
@@ -49,6 +51,7 @@ task :publish => [:generate] do
 end
 
 desc "Generate and serve locally"
-task :serve => [:generate] do
+task :serve do
+  Rake::Task["generate"].invoke("development")
   system "bundle exec jekyll serve"
 end
