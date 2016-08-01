@@ -2,9 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'rdoc'
 require 'date'
-require 'yaml'
 require 'tmpdir'
-require 'jekyll'
 
 task :default => :serve
 
@@ -32,10 +30,7 @@ end
 
 desc "Generate blog files"
 task :generate do
-  Jekyll::Site.new(Jekyll.configuration({
-    "source"      => ".",
-    "destination" => "_site"
-  })).process
+  system "bundle exec jekyll build"
 end
 
 desc "Generate and publish blog to gh-pages"
