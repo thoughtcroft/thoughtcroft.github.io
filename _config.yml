@@ -29,3 +29,7 @@ tag_page_dir:       tag
 
 # Disqus
 disqus_id:          'wazza-is-awesome'
+
+# Related Posts
+related:
+  max_count:        5
