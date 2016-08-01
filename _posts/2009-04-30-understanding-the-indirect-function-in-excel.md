@@ -13,7 +13,11 @@ parameters which resolve to a specific workbook, sheet, name etc. Here
 is some information on how to properly construct a text based reference.
 
 INDIRECT returns a reference specified by a text string and the syntax
-is `INDIRECT(ref_text [, a1])`.
+is
+
+```
+INDIRECT(ref_text [, a1])`
+```
 
 *ref_text* is either
 
