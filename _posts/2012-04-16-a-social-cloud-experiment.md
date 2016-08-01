@@ -5,8 +5,8 @@ date:   2012-04-16
 tags:   [api, cloud, ninefold, programming]
 ---
 
-*Originally published at Ninefold (2010-2015), a cloud
-services provider I helped found.*
+*Originally published at Ninefold (2010-2015), a cloud services provider
+I helped found.*
 
 This is part 3 of the **Cloud programming** series.
 
@@ -54,12 +54,12 @@ stake** characteristics necessary for Ninefold to be considered a true
 cloud computing service:
 
 * Self-service – Fully-automated provisioning under the customer’s
-control.
+  control.
 * On-demand – Resources can be spun up when required at any time (24/7).
 * Scalable and elastic – Customers can increase and decrease their
-resources as required.
+  resources as required.
 * Pay as you go – No contracts. Signup with a credit card and pay only
-for what you use.
+  for what you use.
 
 Although not so obvious initially, there is another that underpins many
 of the above:

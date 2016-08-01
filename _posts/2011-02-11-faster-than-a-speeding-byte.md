@@ -16,16 +16,16 @@ Latency is a synonym for delay, and in networking refers to a variety of
 delays that can occur in transmitting data from one point to another.
 These can include:
 
-* propagation delays (mostly due to the speed of light
-and the distance the signal must travel)
-* transmission delays (due to
-the physical properties of the transmission media); and
-* processing delays
-(from the number of hops through different types of devices such as
-proxy servers and routers)
+* propagation delays (mostly due to the speed of light and the distance
+  the signal must travel)
+* transmission delays (due to the physical properties of the
+  transmission media); and
+* processing delays (from the number of hops through different types of
+  devices such as proxy servers and routers)
 
 These delays can vary considerably due to traffic load or intermittent
-faults but generally speaking, they increase the further the data has to travel.
+faults but generally speaking, they increase the further the data has to
+travel.
 
 Typically, latency is measured by using ping tests which record the
 round trip time for a packet of data to travel from source to
@@ -46,17 +46,17 @@ the Ninefold servers compared to a significant US based cloud provider.
 These tests show that:
 
 * The average latency for a typical Australian ADSL customer to Ninefold
-is 20 ms
-* The average latency for the same customer to a US West Coast based cloud
-is 271 ms
+  is 20 ms
+* The average latency for the same customer to a US West Coast based
+  cloud is 271 ms
 
 That represents a speed advantage over 13 times in our favour.
 
 When we consider the minimum times of 15ms to 266ms it becomes almost 18
 times better latency locally.
 
-Given the variations that different people
-will experience on the interwebs, I feel entirely confident that we have
-at least a nine-fold latency advantage over offshore cloud providers.
+Given the variations that different people will experience on the
+interwebs, I feel entirely confident that we have at least a nine-fold
+latency advantage over offshore cloud providers.
 
 And that is something your customers will definitely appreciate.

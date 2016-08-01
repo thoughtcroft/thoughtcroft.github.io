@@ -11,14 +11,17 @@ a large number of Excel workbooks. Specifically what I wanted was a way
 of managing:
 
 * reuse of any existing instance of Excel or start an instance if there
-wasn't one
+  wasn't one
+
 * save the state of the application - things like the calculation mode
-etc and restore them when finished
+  etc and restore them when finished
+
 * work out whether to close the instance when finished (if we started
-it) or leave it (if we didn't)
+  it) or leave it (if we didn't)
+
 * handle the strange automation errors that can occur and ensure that
-the instance is properly terminated in the case where an unrecoverable
-error has occurred
+  the instance is properly terminated in the case where an unrecoverable
+  error has occurred
 
 Further, I wanted to be able to use this for multiple automation
 clients. The following class modules have served me well for this

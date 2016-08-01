@@ -13,8 +13,8 @@ the user to click on a separate "log" button.
 
 After some research on the 'net I discovered that a lot of the published
 solutions only half-solved the problem. Microsoft themselves got it
-completely wrong in this
-[knowledgebase article](http://support.microsoft.com/kb/q154894/)!
+completely wrong in this [knowledgebase
+article](http://support.microsoft.com/kb/q154894/)!
 
 The trick is understanding the different events that are fired when an
 Access report is opened. Supposing the ReportHeader section is visible,
