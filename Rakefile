@@ -6,21 +6,23 @@ require 'tmpdir'
 
 task :default => :serve
 
-desc "Create new blog post args: title, date (optional)"
+desc "Create new draft with optional args: title, cat, date"
 task :post do
-  title = ENV['title'] || "New Post"
+  title = ENV['title'] || "New Draft Post"
   slug = title.gsub(' ','-').downcase
+  cat = ENV['cat'] || "random"
   date = ENV['date'] || Time.new.strftime('%Y-%m-%d')
   filename = "#{date}-#{slug}.md"
-  path = File.join('_posts', filename)
+  path = File.join('_drafts', filename)
   editor = ENV['EDITOR'] || "vim"
 
   post = <<-"EOF"
 ---
-layout: post
-title:  "#{title}"
-date:   #{date}
-tags:   []
+layout:   post
+title:    "#{title}"
+date:     #{date}
+category: cat
+tags:
 ---
 
 EOF
@@ -53,7 +55,7 @@ end
 
 desc "Generate and serve locally"
 task :serve do
-  system "JEKYLL_ENV=development bundle exec jekyll serve"
+  system "JEKYLL_ENV=development bundle exec jekyll serve --drafts"
 end
 
 def is_dirty?
