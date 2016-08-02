@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Is that file open"
+title:  "Is that file open?"
 date:   2008-08-27
 tags:   [file, windows, vba]
 ---
@@ -36,45 +36,4 @@ trap any errors that may occur. We have to go one further though as the
 they don't exist. To overcome this we make some attribute changes and
 trap any errors that may occur in relation to them as well.
 
-```vb
-Public Function IsFileOpen(ByVal strFullPathFileName As String) As Boolean
-
-   ' Attempting to open a file for ReadWrite that exists will fail
-   ' if someone else has it open.  We also have to guard against the
-   ' errors that occur if the file has uncommon file attributes such as
-   ' 'hidden' which can upset the Open statement.
-   ' NOTE: any open that doesn't lock the file such as opening a .txt file
-   ' in NotePad or a read-only file open will return False from this call.
-
-   Dim lngFile                    As Long
-   Dim intAttrib                  As Integer
-
-   On Error Resume Next
-   intAttrib = GetAttr(strFullPathFileName)
-   If Err <> 0 Then
-       ' If we can't get these then it means the file name is
-       ' invalid, or the file or path don't exist so no problem
-       IsFileOpen = False
-       Exit Function
-   End If
-
-   SetAttr strFullPathFileName, vbNormal
-   If Err <> 0 Then
-       ' An error here means that the file is open and the attributes
-       ' therefore can't be changed so let them know that
-       IsFileOpen = True
-       Exit Function
-   End If
-
-   ' Ready to try and open the file exclusively and then any error means that
-   ' the file is already open by some other process...
-   lngFile = FreeFile
-   Open strFullPathFileName For Random Access Read Write Lock Read Write As lngFile
-   IsFileOpen = (Err <> 0)
-   Close lngFile
-
-   ' Restore the attributes and exit
-   SetAttr strFullPathFileName, intAttrib
-
-End Function
-```
+{% gist thoughtcroft/9c750d95dad451bf61242f43d7ad2481 %}

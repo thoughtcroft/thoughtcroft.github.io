@@ -45,159 +45,16 @@ other new mail triggered actions.
 First, create a new Class module in your Outlook VBA project called
 `clsNewMailHandler`
 
-```vb
-Option Explicit
-
-Public WithEvents oApp As Outlook.Application
-Const TC_BAINSWORLD_ACCOUNT = "bainsworld"
-
-Private Sub Class_Terminate()
-   Set oApp = Nothing
-End Sub
-
-Private Sub oApp_NewMailEx(ByVal EntryIDCollection As String)
-
-' This will be called whenever we receive new mail so
-' process each item to determine if we should alter
-' the account - do we need to worry about conflicts with Rules?
-
-   Dim astrEntryIDs() As String
-   Dim objItem As Object
-   Dim varEntryID As Variant
-
-   astrEntryIDs = Split(EntryIDCollection, ",")
-   For Each varEntryID In astrEntryIDs
-       Set objItem = oApp.Session.GetItemFromID(varEntryID)
-       If objItem.Class = olMail Then
-           ' Only call this for MailItems - can be ReadReceipts
-           ' too which are class olReport
-           Call SetEmailAccount(objItem)
-       End If
-   Next varEntryID
-   Set objItem = Nothing
-End Sub
-
-Private Sub SetEmailAccount(ByRef oItem As MailItem)
-
-' This code will check if the item is of interest to
-' us and if so will update the account property accordingly
-
-' Check if this was sent to a 'bainsworld' address
-   If CheckMessageRecipient(oItem, TC_BAINSWORLD_ACCOUNT, False) Then
-       ' Yes it was - change the account
-       Call SetMessageAccount(oItem, TC_BAINSWORLD_ACCOUNT, True)
-   End If
-End Sub
-
-Private Sub Class_Initialize()
-   Set oApp = Application
-End Sub
-```
+{% gist thoughtcroft/1497ecbab5d77abe43323303485b7d95 clsNewMailHandler.vb %}
 
 Next create a new standard Module called `basMailRoutines` and import this
 code:
 
-```vb
-Option Explicit
-
-Private Const PR_HEADERS = &H7D001E
-Private Const PR_ACCOUNT = &H80F8001E
-
-Public Function CheckMessageRecipient( _
-      ByRef oItem As MailItem, _
-      ByVal strMatch As String, _
-      Optional ByVal blnExact As Boolean = False) As Boolean
-
-' Check if the supplied string matches the recipient
-' of the email.  We use the internet headers and check
-' the first part of the string if we can.  The match
-' can be made exact or not
-
-   Const TC_HEADER_START As String = "Delivered-To:"
-   Const TC_HEADER_END As String = "Received:"
-
-   Dim strHeader As String
-   Dim intStart As Integer
-   Dim intEnd As Integer
-   Dim strRecipient As String
-
-   ' First get the header and see if it makes sense
-   strHeader = GetInternetHeaders(oItem)
-   intStart = InStr(1, strHeader, TC_HEADER_START, vbTextCompare)
-   If intStart = 0 Then intStart = 1
-   intEnd = InStr(intStart, strHeader, vbCrLf & TC_HEADER_END, vbTextCompare)
-
-   If intEnd = 0 Then
-       ' The headers are unreliable so just check the whole string
-       strRecipient = strHeader
-   Else
-       ' Found headers so grab the recipient data
-       strRecipient = Trim$(Mid$(strHeader, intStart + Len(TC_HEADER_START), _
-                                 intEnd - (intStart + Len(TC_HEADER_START))))
-   End If
-
-   ' Now undertake the check
-   If blnExact Then
-       CheckMessageRecipient = (strRecipient = strMatch)
-   Else
-       CheckMessageRecipient = (InStr(1, strRecipient, strMatch, vbTextCompare) > 0)
-   End If
-End Function
-
-Public Sub SetMessageAccount(ByRef oItem As MailItem, _
-                            ByVal strAccount As String, _
-                            Optional blnSave As Boolean = True)
-
-    Dim rMailItem                  As Redemption.RDOMail
-    Dim rSession                   As Redemption.RDOSession
-    Dim rAccount                   As Redemption.RDOAccount
-
-    ' Use a RDO Session object to locate the account
-    ' that we are interested in
-
-    Set rSession = New Redemption.RDOSession
-    rSession.MAPIOBJECT = Application.Session.MAPIOBJECT
-    Set rAccount = rSession.Accounts(strAccount)
-  
-    ' Now use the RDO Mail object to change the account
-    ' to the one we require
-
-    Set rMailItem = rSession.GetMessageFromID(oItem.EntryID)
-    rMailItem.Account = rAccount
-    If blnSave Then
-        ' They want us to force a save to the mail object
-        rMailItem.Subject = rMailItem.Subject
-        rMailItem.Save
-    End If
-    Set rMailItem = Nothing
-    Set rAccount = Nothing
-    Set rSession = Nothing
-End Sub
-
-Public Function GetInternetHeaders(ByRef oItem As MailItem) As String
-
-   Dim rUtils As Redemption.MAPIUtils
-
-   ' Return the internet header of a message
-   Set rUtils = New Redemption.MAPIUtils
-   GetInternetHeaders = rUtils.HrGetOneProp(oItem.MAPIOBJECT, PR_HEADERS)
-   Set rUtils = Nothing
-End Function
-```
+{% gist thoughtcroft/1497ecbab5d77abe43323303485b7d95 basMailRoutines.vb %}
 
 Finally, add the following code to the `ThisOutlookSession` object:
 
-```vb
-Dim MyNewMailHandler As clsNewMailHandler
-
-Private Sub Application_Quit()
-   Set MyNewMailHandler = Nothing
-End Sub
-
-Private Sub Application_Startup()
-   Set MyNewMailHandler = New clsNewMailHandler
-End Sub
-```
+{% gist thoughtcroft/1497ecbab5d77abe43323303485b7d95 ThisOutlookSession.vb %}
 
 Restart Outlook and you are in business! Obviously you could rearrange
 this code to suit your own purpose and condense some of the code into

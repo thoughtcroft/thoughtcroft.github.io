@@ -7,7 +7,7 @@
 
 # Site settings
 title:              wazza is awesome
-email:              warren@thoughtcroft.com
+email:              'warren /at/ thoughtcroft.com'
 author:             Warren Bain
 description: >
   A vainglorious attempt to prove Wazza's general awesomeness.
@@ -33,3 +33,6 @@ disqus_id:          'wazza-is-awesome'
 # Google
 google_analytics:   'UA-81713354-1'
 
+# Gists
+gist:
+  noscript:         false
