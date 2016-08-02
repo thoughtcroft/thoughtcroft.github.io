@@ -29,15 +29,15 @@ EOF
 end
 
 desc "Generate blog files"
-task :generate, [:env] do |task, args|
-  env = args.env.downcase || 'development'
+task :build, [:env] do |task, args|
+  env = ( args.env || 'development' ).downcase
   system "JEKYLL_ENV=#{env} bundle exec jekyll build"
 end
 
 desc "Generate and publish blog to gh-pages"
 task :publish do
   abort 'Please commit changes first!' if is_dirty?
-  Rake::Task["generate"].invoke("production")
+  Rake::Task["build"].invoke("production")
   Dir.mktmpdir do |tmp|
     system "mv _site/* #{tmp}"
     system "git checkout -B master"
