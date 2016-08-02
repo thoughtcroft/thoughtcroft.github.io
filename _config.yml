@@ -21,7 +21,7 @@ linkedin_username:  warrenbain
 # Build settings
 markdown:           kramdown
 include:            [_pages]
-exclude:            [Gemfile, Gemfile.lock, Rakefile, README.md]
+exclude:            [Gemfile, Gemfile.lock, Rakefile, README.md, _gists]
 
 # Tags
 tag_page_layout:    tag-page
