@@ -1,8 +1,14 @@
 ---
-layout: post
-title:  "Whipping up awesome with Chef"
-date:   2013-03-22
-tags:   [automation, chef, cloud, devops, infrastructure, ninefold]
+layout:   post
+title:    "Whipping up awesome with Chef"
+date:     2013-03-22
+category: cloud
+tags:
+  - automation
+  - chef
+  - devops
+  - infrastructure
+  - ninefold
 ---
 
 *Originally published at Ninefold (2010-2015), a cloud

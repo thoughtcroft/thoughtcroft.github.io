@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "Creating a superannuation trust"
-date:   2003-11-21
-tags:   [smsf, trustee]
+layout:   post
+title:    "Creating a superannuation trust"
+date:     2003-11-21
+category: smsf
+tags:
+  - superannuation
+  - trustee
 ---
 
 [Castle Corporate Services](http://www.castlecorp.com.au/site/suppc.htm)

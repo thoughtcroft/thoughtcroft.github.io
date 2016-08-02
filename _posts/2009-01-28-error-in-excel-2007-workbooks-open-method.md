@@ -1,8 +1,14 @@
 ---
-layout: post
-title:  "Error in Excel 2007 workbooks open method"
-date:   2009-01-28
-tags:   [excel, workbook, vba]
+layout:   post
+title:    "Error in Excel 2007 workbooks open method"
+date:     2009-01-28
+category: vba
+tags:
+  - access
+  - excel
+  - password
+  - workbook
+  - vba
 ---
 
 I have discovered a disturbing "feature" in Excel 2007 VBA in the way

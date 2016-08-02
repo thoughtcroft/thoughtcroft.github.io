@@ -1,8 +1,14 @@
 ---
-layout: post
-title:  "How I learned to stop worrying and love the cloud"
-date:   2012-10-08
-tags:   [cloud, ninefold, programming, ruby]
+layout:   post
+title:    "How I learned to stop worrying and love the cloud"
+date:     2012-10-08
+category: cloud
+tags:
+  - books
+  - cloud
+  - ninefold
+  - programming
+  - ruby
 ---
 
 *Originally published at Ninefold (2010-2015), a cloud services provider

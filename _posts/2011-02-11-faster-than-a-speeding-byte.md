@@ -1,8 +1,13 @@
 ---
-layout: post
-title:  "Faster than a speeding byte"
-date:   2011-02-11
-tags:   [cloud, latency, network, ninefold]
+layout:   post
+title:    "Faster than a speeding byte"
+date:     2011-02-11
+category: cloud
+tags:
+  - latency
+  - network
+  - ninefold
+  - ping
 ---
 
 > Originally published when I worked at Ninefold, an Australian cloud

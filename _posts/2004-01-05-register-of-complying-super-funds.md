@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "Register of Complying Super Funds"
-date:   2004-01-05
-tags:   [smsf]
+layout:   post
+title:    "Register of Complying Super Funds"
+date:     2004-01-05
+category: smsf
+tags:
+  - naming things
+  - superannuation
 ---
 
 This contradicts one of my earlier [posts]({% post_url

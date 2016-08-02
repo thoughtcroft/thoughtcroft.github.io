@@ -1,8 +1,14 @@
 ---
-layout: post
-title:  "Generic function to copy Excel data between workbooks"
-date:   2007-10-12
-tags:   [excel, workbook, vba]
+layout:   post
+title:    "Generic function to copy Excel data between workbooks"
+date:     2007-10-12
+category: vba
+tags:
+  - excel
+  - password
+  - upload
+  - vba
+  - workbook
 ---
 
 I needed way to ensure that some Excel workbooks that were being

@@ -1,8 +1,13 @@
 ---
-layout: post
-title:  "2007 Fund Performance"
-date:   2008-06-26
-tags:   [performance, smsf]
+layout:   post
+title:    "2007 Super Fund Performance"
+date:     2008-06-26
+category: smsf
+tags:
+  - fund performance
+  - roi
+  - share portfolio
+  - superannuation
 ---
 
 In typical fashion I have neglected to post information to this blog

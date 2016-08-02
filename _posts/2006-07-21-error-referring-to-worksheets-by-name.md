@@ -1,8 +1,14 @@
 ---
-layout: post
-title:  "Error when referring to Excel sheets collection by sheet name"
-date:   2006-07-21
-tags:   [excel, worksheet, vba]
+layout:   post
+title:    "Error when referring to Excel sheets collection by sheet name"
+date:     2006-07-21
+category: vba
+tags:
+  - access
+  - excel
+  - textfield
+  - worksheet
+  - vba
 ---
 
 I've just had a frustrating couple of hours dealing with what appears to

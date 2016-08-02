@@ -1,8 +1,13 @@
 ---
-layout: post
-title:  "Is that file open?"
-date:   2008-08-27
-tags:   [file, windows, vba]
+layout:   post
+title:    "Is that file open?"
+date:     2008-08-27
+category: vba
+tags:
+  - excel
+  - file
+  - windows
+  - vba
 ---
 
 If you ever need to determine if a file is already open before you

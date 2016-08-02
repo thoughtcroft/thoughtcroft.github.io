@@ -1,8 +1,14 @@
 ---
-layout: post
-title:  "Handling strings containing quotes in SQL"
-date:   2010-02-26
-tags:   [access, sql, strings, vba]
+layout:   post
+title:    "Handling strings containing quotes in SQL"
+date:     2010-02-26
+category: vba
+tags:
+  - access
+  - quote
+  - sql
+  - strings
+  - vba
 ---
 
 Everyone is aware that quotes in strings used in SQL cause all sorts of

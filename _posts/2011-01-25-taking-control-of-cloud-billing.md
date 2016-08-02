@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "Taking control of cloud billing"
-date:   2011-01-25
-tags:   [billing, cloud, ninefold]
+layout:   post
+title:    "Taking control of cloud billing"
+date:     2011-01-25
+category: cloud
+tags:
+ - billing
+ - cost control
+ - ninefold
 ---
 
 > Originally published when I worked at Ninefold, an Australian cloud

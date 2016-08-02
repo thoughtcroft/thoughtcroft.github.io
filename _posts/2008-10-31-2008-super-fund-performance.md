@@ -1,8 +1,13 @@
 ---
-layout: post
-title:  "2008 Fund Performance"
-date:   2008-10-31
-tags:   [performance, smsf]
+layout:   post
+title:    "2008 Super Fund Performance"
+date:     2008-10-31
+category: smsf
+tags:
+  - fund performance
+  - roi
+  - share portfolio
+  - superannuation
 ---
 
 Unfortunately, and as predicted last year, **we had a lousy return of

@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  What is involved in running an SMSF?
-date:   2003-11-23
-tags:   [asfa, smsf]
+layout:   post
+title:    "What is involved in running an SMSF?"
+date:     2003-11-23
+category: smsf
+tags:
+  - apra
+  - asfa
+  - superannuation
 ---
 
 [The Association of Superannuation Funds of Australia

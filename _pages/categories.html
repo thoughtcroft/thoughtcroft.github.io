@@ -1,0 +1,23 @@
+---
+layout: page
+title: Categories
+permalink: /categories/
+---
+
+<section id="categories">
+  {% assign sorted_categories = site.categories | sort %}
+  {% for category in sorted_categories %}
+    <div class="catbloc" id="{{ category | first | remove: ' ' }}">
+      <h3>{{ category | first }}</h3>
+      <ul>
+        {% for posts in category %}
+          {% for post in posts %}
+            {% if post.url %}
+              <li><time>{{ post.date | date: "%b %-d, %Y" }}</time> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</section>

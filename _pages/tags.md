@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tag Cloud
+title: Tags
 permalink: /tag/
 ---
 

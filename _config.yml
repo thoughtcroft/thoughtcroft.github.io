@@ -19,9 +19,21 @@ github_username:    thoughtcroft
 linkedin_username:  warrenbain
 
 # Build settings
+permalink:          none
 markdown:           kramdown
-include:            [_pages]
-exclude:            [Gemfile, Gemfile.lock, Rakefile, README.md, _gists]
+include:
+  - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+  - _gists
+max_related_posts:  4
+
+# Plugins
+gems:
+   - jekyll/tagging
 
 # Tags
 tag_page_layout:    tag-page

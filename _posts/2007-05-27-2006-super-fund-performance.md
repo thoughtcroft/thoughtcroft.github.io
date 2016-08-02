@@ -1,8 +1,13 @@
 ---
-layout: post
-title:  "2006 Fund Performance"
-date:   2007-05-27
-tags:   [performance, smsf]
+layout:   post
+title:    "2006 Super Fund Performance"
+date:     2007-05-27
+category: smsf
+tags:
+  - fund performance
+  - roi
+  - share portfolio
+  - superannuation
 ---
 
 I just noticed that I forgot to post last year's results for the

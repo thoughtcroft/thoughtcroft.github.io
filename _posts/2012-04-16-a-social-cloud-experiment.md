@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "A social cloud programming experiment"
-date:   2012-04-16
-tags:   [api, cloud, ninefold, programming]
+layout:   post
+title:    "A social cloud programming experiment"
+date:     2012-04-16
+category: cloud
+tags:
+  - api
+  - ninefold
+  - programming
 ---
 
 *Originally published at Ninefold (2010-2015), a cloud services provider

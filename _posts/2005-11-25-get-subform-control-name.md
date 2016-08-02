@@ -1,8 +1,13 @@
 ---
-layout: post
-title:  "Finding the name of a control in an Access subform"
-date:   2005-11-25
-tags:   [access, form, subform, vba]
+layout:   post
+title:    "Finding the name of a control in an Access subform"
+date:     2005-11-25
+category: vba
+tags:
+  - access
+  - form
+  - subform
+  - vba
 ---
 
 I'm currently developing a Microsoft Access based system and found
@@ -21,6 +26,5 @@ fine but if it is to be used in a query then we need the long version
 which may necessitate walking up the hierarchy if in fact the parent
 form is itself a subform (forms can be nested to three levels). This is
 achieved by calling the function recursively on the parent.
-
 
 {% gist thoughtcroft/f3f541bb864031a79c9091a049fe6eb2 %}

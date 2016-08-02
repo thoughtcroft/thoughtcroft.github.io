@@ -1,8 +1,13 @@
 ---
-layout: post
-title:  "Calculating compound annual growth rate (CAGR)"
-date:   2005-11-30
-tags:   [cagr, excel, udf, vba]
+layout:   post
+title:    "Calculating compound annual growth rate (CAGR)"
+date:     2005-11-30
+category: random
+tags:
+  - cagr
+  - investment
+  - excel
+  - udf
 ---
 
 Microsoft Excel comes with a lot of inbuilt functions that can be used

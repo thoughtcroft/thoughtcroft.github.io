@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "Setting up a trustee company"
-date:   2003-11-13
-tags:   [company, smsf, trustee]
+layout:   post
+title:    "Setting up a trustee company"
+date:     2003-11-13
+category: smsf
+tags:
+  - company
+  - superannuation
+  - trustee
 ---
 
 [Corporate Network Ltd](http://www.incorporations.com.au/) is the

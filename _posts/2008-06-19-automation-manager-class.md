@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "Automation Manager Class"
-date:   2008-06-19
-tags:   [access, automation, excel, vba]
+layout:   post
+title:    "Automation Manager Class"
+date:     2008-06-19
+category: vba
+tags:
+  - access
+  - excel
+  - vba
 ---
 
 I needed a way to manage calls to different office automation servers in

@@ -1,8 +1,14 @@
 ---
-layout: post
-title:  "Automatic email account assignment in Outlook"
-date:   2008-03-19
-tags:   [email, outlook, vba]
+layout:   post
+title:    "Automatic email account assignment in Outlook"
+date:     2008-03-19
+category: vba
+tags:
+  - email
+  - mapi
+  - outlook
+  - redemption
+  - vba
 ---
 
 I use Google Apps to host my family's and my private company's email but

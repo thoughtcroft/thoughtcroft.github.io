@@ -1,8 +1,14 @@
 ---
-layout: post
-title:  "Setting text edit mode on Access form fields made easy"
-date:   2005-11-25
-tags:   [access, control, form, textfield, vba]
+layout:   post
+title:    "Setting text edit mode on Access form fields made easy"
+date:     2005-11-25
+category: vba
+tags:
+  - access
+  - control
+  - form
+  - textfield
+  - vba
 ---
 
 The Locked and Enabled properties of text-based controls - combo boxes,

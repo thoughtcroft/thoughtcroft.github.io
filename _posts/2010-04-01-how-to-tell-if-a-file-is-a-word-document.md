@@ -1,8 +1,12 @@
 ---
-layout: post
-title:  "How to tell if a file is a Word document"
-date:   2010-04-01
-tags:   [file, word, vba]
+layout:   post
+title:    "How to tell if a file is a Word document"
+date:     2010-04-01
+category: vba
+tags:
+ - file
+ - vba
+ - word
 ---
 
 I am building a tool that needs to do something to all the Word

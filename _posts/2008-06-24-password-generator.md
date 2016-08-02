@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "Simple password generator"
-date:   2008-06-24
-tags:   [password, vba]
+layout:   post
+title:    "Simple password generator"
+date:     2008-06-24
+category: vba
+tags:
+  - password
+  - vba
 ---
 
 This is a simple digit only password generator that I use for a number
