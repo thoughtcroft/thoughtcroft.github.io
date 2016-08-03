@@ -25,6 +25,8 @@ category: cat
 tags:
 ---
 
+# DRAFT!
+
 EOF
   File.open(path, 'w') { |f| f.puts post }
   exec "#{editor} #{path}"

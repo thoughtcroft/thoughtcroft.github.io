@@ -4,9 +4,11 @@ title:    "Self Funding Instalment Warrants"
 date:     2016-08-03
 category: smsf
 tags:
- - superannuation
- - sfi
- - warrants
  - investment
+ - sfi
+ - superannuation
+ - warrants
 ---
+
+# DRAFT!
 
