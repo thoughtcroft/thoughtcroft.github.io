@@ -21,8 +21,9 @@ task :post do
 layout:   post
 title:    "#{title}"
 date:     #{date}
-category: cat
+category: #{cat}
 tags:
+  - #{cat}
 ---
 
 # DRAFT!

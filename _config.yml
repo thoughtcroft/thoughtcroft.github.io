@@ -29,15 +29,23 @@ exclude:
   - Rakefile
   - README.md
   - _gists
-max_related_posts:  4
 
-# Plugins
+# Custom require for plugins if not the name of the gem
+# (otherwise just add to Gemfile)
 gems:
    - jekyll/tagging
+
+# Pagination
+paginate:           7
+paginate_path:      'page/:num'
+
+# RSS Feed
+max_rss_posts:      10
 
 # Tags
 tag_page_layout:    tag-page
 tag_page_dir:       tag
+max_related_posts:  4
 
 # Disqus
 disqus_id:          'wazza-is-awesome'
@@ -45,6 +53,6 @@ disqus_id:          'wazza-is-awesome'
 # Google
 google_analytics:   'UA-81713354-1'
 
-# Gists
+# Gist
 gist:
   noscript:         false

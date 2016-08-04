@@ -244,12 +244,39 @@
 
 
 /**
+ * * RSS Feeds
+ */
+.rss-subscribe {
+    padding-top: $spacing-unit;
+}
+
+
+
+/**
+ * * Pagination
+ */
+.pagination {
+
+    .next {
+        padding: 0px 0px 0px 5px;
+     }
+    .prev {
+        padding: 0px 5px 0px 0px;
+    }
+    .page {
+        padding: 0px 5px 0px 5px;
+    }
+}
+
+
+
+/**
  * Tags
  */
 .site-tag {
 
-  a {
-    display: inline-block;
-    margin-right: 12px;
-  }
+    a {
+      display: inline-block;
+      margin-right: 12px;
+    }
 }

@@ -3,21 +3,22 @@ layout: default
 ---
 
 <div class="home">
-
   <h1 class="post-title">Posts</h1>
-
+  <!-- This loops through the paginated posts -->
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p>{{ post.content | truncatewords:35 | strip_html }}</p>
       </li>
     {% endfor %}
   </ul>
+</div>
 
+{% include pagination.html %}
+
+<div>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>
