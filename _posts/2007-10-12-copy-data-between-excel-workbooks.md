@@ -11,7 +11,7 @@ tags:
   - workbook
 ---
 
-I needed way to ensure that some Excel workbooks that were being
+I needed a way to ensure that some Excel workbooks that were being
 completed by customers and uploaded to a server for analysis and
 subsequent loading into a database, were not being tampered with.
 Certainly in Excel version up to and including 2003 it is not possible

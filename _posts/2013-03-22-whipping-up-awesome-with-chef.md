@@ -12,10 +12,8 @@ tags:
   - ninefold
 ---
 
-*Originally published at Ninefold (2010-2015), a cloud
-services provider I helped found.*
-
-This is part 3 of the **Cloud programming** series.
+This is part 3 of my **Cloud programming** series where I explore Chef,
+a very cool infrastructure automation tool.
 
 When I started this blog series, I had a project in mind which required
 me to learn Ruby and how to use the Fog cloud abstraction library so
@@ -199,3 +197,5 @@ Ninefold's cookbook development and customer provisioning process makes
 extensive use of Berkshelf and I highly recommend reading an
 introduction to authoring cookbooks by Jamie Winsor, the creator of
 Berkshelf.
+
+{% include ninefold_disclose.md %}

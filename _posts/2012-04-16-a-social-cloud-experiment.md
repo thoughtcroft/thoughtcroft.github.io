@@ -9,10 +9,8 @@ tags:
   - programming
 ---
 
-*Originally published at Ninefold (2010-2015), a cloud services provider
-I helped found.*
-
-This is part 3 of the **Cloud programming** series.
+This is part 1 of my **Cloud programming** series where I embark on a
+journey to learn more about programming in the cloud.
 
 The cloud is a technological hub of remarkable innovation. However, an
 idea has been developing in my mind for some time: a cloud programming
@@ -101,3 +99,5 @@ commence the design, describe the language and tool choices and invite
 your participation in the project. It will be fun and challenging and I
 look forward to working with you. And believe me, given the learning
 curve ahead I am depending on your help!
+
+{% include ninefold_disclose.md %}

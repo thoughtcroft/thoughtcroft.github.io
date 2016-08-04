@@ -11,10 +11,8 @@ tags:
   - ruby
 ---
 
-*Originally published at Ninefold (2010-2015), a cloud services provider
-I helped found.*
-
-This is part 2 of the **Cloud programming** series.
+This is part 2 of my **Cloud programming** series where I give myself a
+crash-course in learning Ruby.
 
 When I first read the list of language features in the [Wikipedia entry
 on the Ruby programming
@@ -99,3 +97,5 @@ To:
 ```
 
 I have evolved…
+
+{% include ninefold_disclose.md %}

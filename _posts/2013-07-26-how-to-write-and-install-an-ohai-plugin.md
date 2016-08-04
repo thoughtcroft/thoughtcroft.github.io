@@ -14,10 +14,9 @@ tags:
   - ruby
 ---
 
-*Originally published at Ninefold (2010-2015), a cloud
-services provider I helped found.*
-
-This is part 4 of the **Cloud programming** series.
+This is part 4 of my **Cloud programming** series where I show you how
+to extend Ohai node discovery with custom attributes for use in Chef
+recipes.
 
 My loyal readers (Hi Mum and Dad!) will have noticed by now that we are
 big fans of Chef at Ninefold. We have written recipes to configure and
@@ -142,3 +141,5 @@ plugin*.
 
 With this guide, it should be a piece of cake (now there's a cooking
 term crying out for an Opscode Chef feature).
+
+{% include ninefold_disclose.md %}

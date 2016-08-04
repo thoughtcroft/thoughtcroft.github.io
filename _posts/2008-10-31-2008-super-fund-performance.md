@@ -10,8 +10,8 @@ tags:
   - superannuation
 ---
 
-Unfortunately, and as predicted last year, **we had a lousy return of
--17.3% for 2008**.
+Unfortunately, and as predicted last year, **Bainsworld Superannuation
+Fund had a negative return of -17.3% for 2008**.
 
 Whilst not unexpected and probably reasonable given the carnage on the
 share market, it is nonetheless disappointing.  However, we have no

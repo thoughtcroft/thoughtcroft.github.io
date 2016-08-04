@@ -10,9 +10,6 @@ tags:
   - ping
 ---
 
-> Originally published when I worked at Ninefold, an Australian cloud
-> services provider I co-founded, that operated from 2010 - 2015.
-
 There are a number of reasons why an Australian cloud server can be
 better for you than an offshore equivalent. However, latency is easily
 one of the most popular. So how much of a difference can it really make?
@@ -65,3 +62,5 @@ interwebs, I feel entirely confident that we have at least a nine-fold
 latency advantage over offshore cloud providers.
 
 And that is something your customers will definitely appreciate.
+
+{% include ninefold_disclose.md %}

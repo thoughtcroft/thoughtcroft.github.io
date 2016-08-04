@@ -11,7 +11,7 @@ tags:
 ---
 
 If you ever need to determine if a file is already open before you
-attempt to do something with it in VBA, you will discover a blistering
+attempt to do something with it in VBA, you will discover a bewildering
 array of code segments on the interweb which all seem to share the
 characteristic that: **they fail to work as advertised**.
 
