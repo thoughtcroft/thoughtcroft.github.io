@@ -7,7 +7,7 @@ tags:
   - access
   - quote
   - sql
-  - strings
+  - string
   - vba
 ---
 
