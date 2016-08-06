@@ -5,7 +5,7 @@ date:     2005-11-30
 category: random
 tags:
   - cagr
-  - investment
+  - investing
   - excel
   - udf
 ---

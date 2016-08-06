@@ -4,7 +4,7 @@ title:    "Why start your own superfund?"
 date:     2003-11-08
 category: smsf
 tags:
-  - investment
+  - investing
   - superannuation
 ---
 
