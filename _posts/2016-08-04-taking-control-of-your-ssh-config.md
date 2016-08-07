@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "Simplifying server access by using an SSH config file"
+title:    "Simplify server access by using an SSH config file"
 date:     2016-08-04
 category: devops
 tags:
