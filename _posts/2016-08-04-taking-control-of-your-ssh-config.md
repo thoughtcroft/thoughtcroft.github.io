@@ -89,7 +89,7 @@ that will be used. That's how command line options take precedence
 over configuration file data. The same principle operates in the config
 file.
 
-Each *Host* section defines options that will take effect ifor any host that
+Each *Host* section defines options that will take effect for any host that
 matches the name referred to in the ssh command i.e.
 
     ssh user@host <options>
@@ -149,7 +149,7 @@ To avoid this, I use two settings:
 
   Throw away the host key instead of adding it to the *known_hosts*
   file. It isn't possible to suppress ssh trying to save the key but
-  this has the same effect by saving it to /dev/null.
+  this has the same effect by disposing of it in /dev/null.
 
 * `StrictHostKeyChecking=no`
 
