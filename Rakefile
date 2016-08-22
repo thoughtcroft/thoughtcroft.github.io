@@ -2,6 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'rdoc'
 require 'date'
+require 'shellwords'
 require 'tmpdir'
 
 task :default => :serve
