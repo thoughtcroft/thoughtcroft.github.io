@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    "Aquaponics"
+title:    "My Aquaponics Journey"
 date:     2021-02-25
 category: aquaponics
 tags:
