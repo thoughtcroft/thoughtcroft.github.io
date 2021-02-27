@@ -14,7 +14,8 @@ task :post do
   cat = ENV['cat'] || "random"
   date = ENV['date'] || Time.new.strftime('%Y-%m-%d')
   filename = "#{date}-#{slug}.md"
-  path = File.join('_drafts', filename)
+  dirname = '_drafts'
+  path = File.join(dirname, filename)
   editor = ENV['EDITOR'] || "vim"
 
   post = <<-"EOF"
@@ -30,6 +31,7 @@ tags:
 # DRAFT!
 
 EOF
+  Dir.mkdir(dirname) unless Dir.exists?(dirname)
   File.open(path, 'w') { |f| f.puts post }
   exec "#{editor} #{path}"
 end
