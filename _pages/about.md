@@ -7,8 +7,7 @@ permalink: /about/
 Warren Bain, better known as Wazza, is a seasoned IT veteran still on active duty.
 
 Currently he is the product manager for a low-code application
-development platform created by WiseTech Global for building next-gen
-web-enabled logistics applications.
+development platform for  building next-gen web-enabled apps.
 
 In his career he has worked with many technologies:
 
