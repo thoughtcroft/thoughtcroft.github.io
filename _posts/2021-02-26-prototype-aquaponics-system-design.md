@@ -44,9 +44,9 @@ ammonia directly to the water and supplementing it with nutrients like
 
 I obtain the ammonia by distillation of Cloudy Ammonia ($1.25 per litre
 from Woolworths) which is far cheaper than buying aqueous ammonia from
-chemical cupply companies (about $30 per litre and you probably end up
+chemical supply companies (about $30 per litre and you probably end up
 on a persons of interest register...).
 
 This chop and flip barrel opened me up to the possibilities of
-Aquaponics growing systems and I have since built a much bigger system
+Aquaponic growing systems and I have since built a much bigger system
 with fish as the primary ammonia source, which I will cover in a later blog post.

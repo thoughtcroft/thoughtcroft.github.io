@@ -33,7 +33,6 @@ exclude:
 # Custom require for plugins if not the name of the gem
 # (otherwise just add to Gemfile)
 gems:
-   - jekyll/tagging
 
 # Pagination
 paginate:           7
