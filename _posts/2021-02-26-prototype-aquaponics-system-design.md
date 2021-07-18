@@ -9,7 +9,7 @@ tags:
 - garden
 ---
 
-I should confess right upfront that I heavily researched (stole)
+I should confess right upfront that I heavily researched (stolen)
 most of my ideas from the Aquaponics community and in particular, Rob
 Gray, whose excellent [Rob Bob's Aquaponics & Backyard Farm](https://www.youtube.com/channel/UChz2QEbZECEzUih1DiqZTNA)
 YouTube channel, is a great source of inspiration and knowledge.
