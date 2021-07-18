@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem "jekyll", ">= 3.6.3"
+gem "addressable", ">= 2.8.0"
 
 group :jekyll_plugins do
   gem 'jekyll-gist'
