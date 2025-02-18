@@ -1,30 +1,1152 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:site.max_rss_posts %}
+    <title>wazza is awesome</title>
+    <description>A vainglorious attempt to prove Wazza's general awesomeness. Then again, people have actually rated him for that on LinkedIn.
+</description>
+    <link>http://wazza-is-awesome.com/</link>
+    <atom:link href="http://wazza-is-awesome.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 18 Feb 2025 16:29:14 +1100</pubDate>
+    <lastBuildDate>Tue, 18 Feb 2025 16:29:14 +1100</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Prototype aquaponic system design</title>
+        <description>&lt;p&gt;I should confess right upfront that I heavily researched (stolen)
+most of my ideas from the Aquaponics community and in particular, Rob
+Gray, whose excellent &lt;a href=&quot;https://www.youtube.com/channel/UChz2QEbZECEzUih1DiqZTNA&quot;&gt;Rob Bob’s Aquaponics &amp;amp; Backyard Farm&lt;/a&gt;
+YouTube channel, is a great source of inspiration and knowledge.&lt;/p&gt;
+
+&lt;p&gt;My initial foray into this world was to test the concept using a 200
+litre barrel in a ‘chop and flip’ style. Rob has a &lt;a href=&quot;https://youtu.be/Z2tgrUvSnbM&quot;&gt;comprehensive video&lt;/a&gt;
+describing how to build such a system and it is very simple:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;start with a 200 litre barrel&lt;/li&gt;
+  &lt;li&gt;cut the top 1/4 of the barrel off and flip it&lt;/li&gt;
+  &lt;li&gt;place a pump in the bottom and connect it to a pipe through the top&lt;/li&gt;
+  &lt;li&gt;make a bell siphon to drain the top into the bottom&lt;/li&gt;
+  &lt;li&gt;fill the top with a suitable grow media&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../resources/barrel_design.png&quot; alt=&quot;Chop and Flip Barrel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The grow media I used was LECA (light expanded clay aggregate),
+little clay balls which are full of tiny holes and provide a medium
+for the plants to grow in plus somewhere to host the nitrifying bacteria
+that convert the ammonia exuded by the fish into nitrites and then nitrates.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../resources/leca.png&quot; alt=&quot;LECA&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I initially had some goldfish as my ammonia source and I was growing mostly
+herbs and leafy greens. This worked really well as you can see:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../resources/barrel_growth.png&quot; alt=&quot;Chop and Flip Barrel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am currently running the barrel as a “fishless” system by adding
+ammonia directly to the water and supplementing it with nutrients like
+“Charlie Carp”.&lt;/p&gt;
+
+&lt;p&gt;I obtain the ammonia by distillation of Cloudy Ammonia ($1.25 per litre
+from Woolworths) which is far cheaper than buying aqueous ammonia from
+chemical supply companies (about $30 per litre and you probably end up
+on a persons of interest register…).&lt;/p&gt;
+
+&lt;p&gt;This chop and flip barrel opened me up to the possibilities of
+Aquaponic growing systems and I have since built a much bigger system
+with fish as the primary ammonia source, which I will cover in a later blog post.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Feb 2021 00:00:00 +1100</pubDate>
+        <link>http://wazza-is-awesome.com/aquaponics/prototype-aquaponics-system-design.html</link>
+        <guid isPermaLink="true">http://wazza-is-awesome.com/aquaponics/prototype-aquaponics-system-design.html</guid>
+        
+        <category>aquaponics</category>
+        
+        <category>fish</category>
+        
+        <category>garden</category>
+        
+        
+        <category>aquaponics</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>My aquaponics journey</title>
+        <description>&lt;p&gt;It is now two years since I first became interested in
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Aquaponics&quot;&gt;aquaponics&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I was trying to grow a lot of basil and a friend of mine suggested using
+my frog pond as a water source to grow the basil hydroponically. I
+initially discounted the idea as crazy but then started to look into it.
+And a whole new world opened up to me.&lt;/p&gt;
+
+&lt;p&gt;Aquaponics is a merger of hydroponics - growing plants in a soil-less
+media - and aquaculture - farming aquatic species for food. It is a
+somewhat balanced system where the fish consume protein, exhale ammonia
+and naturally occurring bacteria convert the ammonia into nitrites and
+then the nitrites into nitrates. The nitrates then fuel plant growth.&lt;/p&gt;
+
+&lt;p&gt;The bacteria colonise in some form of media which also forms the grow
+beds for the plants. Leafy green vegetables are an excellent choice for
+such systems and grow extremely quickly and vigorously.&lt;/p&gt;
+
+&lt;p&gt;I will post more information about my aquaponics system and how well it
+is working. So far it has been a success, although we are yet to harvest
+any of the fish for eating.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Feb 2021 00:00:00 +1100</pubDate>
+        <link>http://wazza-is-awesome.com/aquaponics/aquaponics-is-my-new-project.html</link>
+        <guid isPermaLink="true">http://wazza-is-awesome.com/aquaponics/aquaponics-is-my-new-project.html</guid>
+        
+        <category>aquaponics</category>
+        
+        <category>fish</category>
+        
+        <category>sustainable</category>
+        
+        
+        <category>aquaponics</category>
+        
+      </item>
+    
+      <item>
+        <title>Simplify server access by using an SSH config file</title>
+        <description>&lt;p&gt;If you are a devops engineer or a developer, at some point you will need
+to jump onto a server to configure some software, access logs and
+generally just check out what is happening. If you are like me, you’ll
+be doing it a lot.&lt;/p&gt;
+
+&lt;p&gt;You will likely be using ssh to login to the servers or at the very
+least you will have enabled ssh key access for updating your source code
+and pushing it to Github or Bitbucket. If you haven’t, then you should
+to improve security and make life easier.&lt;/p&gt;
+
+&lt;p&gt;It can be difficult to remember all those &lt;a href=&quot;http://linux.die.net/man/1/ssh&quot;&gt;ssh
+options&lt;/a&gt;. Well, if you aren’t making the
+&lt;a href=&quot;http://linux.die.net/man/5/ssh_config&quot;&gt;ssh config file&lt;/a&gt; do the hard
+work for you, then you are doing it wrong. Here are some helpful tips.
+(I’m going to assume you have basic knowledge about ssh keys, OK?)&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-role-of-the-ssh-config-file&quot;&gt;What is the role of the ssh config file?&lt;/h3&gt;
+
+&lt;p&gt;In short, it is for supplying configuration to ssh. The ssh command
+sources configuration parameters from the following sources in this order:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;command-line options&lt;/li&gt;
+  &lt;li&gt;the user’s configuration file in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.ssh/config&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;the system-wide configuration file in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/ssh/ssh_config&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;default values (these are listed in the system-wide config commented out)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Desired behaviour can be configured to always occur or specific
+behaviour for a particular host. So for example rather than always
+providing an IdentityFile (-i) option for a particular host,
+you can instead add this to the config file and save yourself a ton of
+typing.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-does-one-look-like&quot;&gt;What does one look like?&lt;/h3&gt;
+
+&lt;p&gt;Here’s an extract from one that I use to make my life easier:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# specific host settings&lt;/span&gt;
+
+Host github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/github_rsa
+
+Host bitbucket.org
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/bitbucket_rsa
+
+&lt;span class=&quot;c&quot;&gt;# private CoreOS stuff&lt;/span&gt;
+
+Host core-01
+  HostName 172.17.8.101
+Host core-02
+  HostName 172.17.8.102
+Host core-03
+  HostName 172.17.8.103
+Host core-??
+  User core
+  IdentityFile ~/.vagrant.d/insecure_private_key
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+
+&lt;span class=&quot;c&quot;&gt;# general settings&lt;/span&gt;
+
+IdentitiesOnly &lt;span class=&quot;nb&quot;&gt;yes
+&lt;/span&gt;ServerAliveInterval 60
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s look at how this works in practice.&lt;/p&gt;
+
+&lt;h2 id=&quot;host-name-matching-is-the-key&quot;&gt;Host name matching is the key&lt;/h2&gt;
+
+&lt;p&gt;For each configuration parameter, the first obtained value is the one
+that will be used. That’s how command line options take precedence
+over configuration file data. The same principle operates in the config
+file.&lt;/p&gt;
+
+&lt;p&gt;Each &lt;em&gt;Host&lt;/em&gt; section defines options that will take effect for any host that
+matches the name referred to in the ssh command i.e.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh user@host &amp;lt;options&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Patterns can include &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?&lt;/code&gt; and can be negated using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;!&lt;/code&gt;.
+This matching starts at the top of the file and therefore config should
+be entered with host specific values at the start and general values
+towards the end.&lt;/p&gt;
+
+&lt;p&gt;For example, when I enter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh core-01&lt;/code&gt; to log onto a vm running
+CoreOS, it is equivalent to me typing:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh core@172.17.8.101 &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; ~/.vagrant.d/insecure_private_key &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;StrictHostKeyChecking&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;no &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;UserKnownHostsFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/dev/null &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;IdentitiesOnly&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;yes&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;ServerAliveInterval&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;60
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;use-a-different-ssh-key-pair-per-host&quot;&gt;Use a different ssh key-pair per host&lt;/h3&gt;
+
+&lt;p&gt;There are a lot of discussions like &lt;a href=&quot;http://security.stackexchange.com/questions/40050/what-is-the-best-practice-separate-ssh-key-per-host-and-user-vs-one-ssh-key-for&quot;&gt;this one on
+StackEchange&lt;/a&gt;
+regarding whether you should have separate private-public key pairs for
+each server or one pair to rule them all.&lt;/p&gt;
+
+&lt;p&gt;One argument against using multiple keys is that the more additional
+security you add, the more convenience you give up. With the ssh config
+approach, it is no less convenient to use a per-host keypair than
+one-pair for all hosts, apart from the act of generating the keys and
+adding them to the config.&lt;/p&gt;
+
+&lt;p&gt;I use a different pair per host. Should there be some form of compromise
+or some other reason that a given key-pair must be changed, there is
+minimal effort to effect that for one host without any need to alter my
+security with any other host or site.&lt;/p&gt;
+
+&lt;p&gt;Configuring each key in the ssh config makes this dead simple.&lt;/p&gt;
+
+&lt;h3 id=&quot;prevent-known_hosts-problems-when-using-virtual-machines&quot;&gt;Prevent ‘known_hosts’ problems when using virtual machines&lt;/h3&gt;
+
+&lt;p&gt;If you are in the habit of spinning up and tearing down vms on a regular
+basis, you will be aware of the problem whereby the ssh host key check
+fails and prevents you from accessing the vm.&lt;/p&gt;
+
+&lt;p&gt;ssh maintains a list of all hosts that have been accessed in
+&lt;em&gt;~/.ssh/known_hosts&lt;/em&gt;. Whenever a host is accessed, it’s previous entry
+is checked and if different, access will be prevented to avoid
+man-in-the-middle attacks. When vms are constantly being rebuilt, this
+behaviour is very frustrating and requires you to remove the offending
+key manually from &lt;em&gt;known_hosts&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;To avoid this, I use two settings:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UserKnownHostsFile=/dev/null&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;Throw away the host key instead of adding it to the &lt;em&gt;known_hosts&lt;/em&gt;
+file. It isn’t possible to suppress ssh trying to save the key but
+this has the same effect by disposing of it in /dev/null.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;StrictHostKeyChecking=no&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;Prevent ssh from pausing to ask if the key should be saved the first
+time a new host is accessed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In combination, these settings prevent interruptions when using
+ssh to access vms that change frequently. It goes without saying that
+these settings are &lt;strong&gt;not recommended&lt;/strong&gt; for public or long-lived servers
+as they protect you from potentially harmful attempts to compromise your
+security.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-convenience-settings&quot;&gt;Other convenience settings&lt;/h3&gt;
+
+&lt;p&gt;I’ll leave it up to the reader to explore the other settings in detail,
+but in short, here are the ones that I use to make life easier:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PreferredAuthentications=publickey&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;Don’t fall back to other methods to access a server, just fail if
+public key access fails. If there is a networking problem
+or the public key has been deleted from &lt;em&gt;authorized_keys&lt;/em&gt; on the host,
+then default behaviour is to fall back to asking for a userid /
+password. Since we know it is using an ssh key, don’t bother doing
+this, just fail.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IdentitiesOnly=yes&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;Only use the identity files configured in the ssh config. This can
+avoid conflicts when there are other identities loaded via ssh-add.
+And there is no need to ssh-add any keys configured in the config
+file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ServerAliveInterval=60&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;This sets the frequency in seconds for ssh to send KeepAlive messages
+to the host. If no response is received to these messages, the
+connection will be closed. In effect, this prevents ssh sessions with
+little activity from being timed out and closed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I hope this is as helpful for you as it has been for me. If you have any
+favourite tricks or settings, leave a comment below.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Aug 2016 00:00:00 +1000</pubDate>
+        <link>http://wazza-is-awesome.com/devops/taking-control-of-your-ssh-config.html</link>
+        <guid isPermaLink="true">http://wazza-is-awesome.com/devops/taking-control-of-your-ssh-config.html</guid>
+        
+        <category>devops</category>
+        
+        <category>host</category>
+        
+        <category>keys</category>
+        
+        <category>password</category>
+        
+        <category>security</category>
+        
+        <category>ssh</category>
+        
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>How to write and install an Ohai plugin, the Fight Club way</title>
+        <description>&lt;p&gt;This is part 4 of my &lt;strong&gt;Cloud programming&lt;/strong&gt; series where I show you how
+to extend Ohai node discovery with custom attributes for use in Chef
+recipes.&lt;/p&gt;
+
+&lt;p&gt;My loyal readers (Hi Mum and Dad!) will have noticed by now that we are
+big fans of Chef at Ninefold. We have written recipes to configure and
+manage our new multi-zone cloud server infrastructure. And we have also
+built an amazing deployment framework utilising Private Chef to power
+our new App Deploy service which we are finalising for launch in a
+matter of weeks.&lt;/p&gt;
+
+&lt;p&gt;In my previous post - &lt;a href=&quot;/devops/whipping-up-awesome-with-chef.html&quot;&gt;Whipping Up Awesome with
+Chef&lt;/a&gt; - I provided a
+brief explanation of the Chef universe and how the configuration state
+of a node (server) is recorded on the Chef Server through attributes.
+These attributes are defined by cookbook attribute files, recipes, roles
+and environments and from data discovered about the node itself.  The
+discovery process occurs at the start of every Chef client run and
+automatically surfaces operating system platform details, memory and
+processor usage, networking details, kernel data etc.&lt;/p&gt;
+
+&lt;p&gt;Departing from the cooking metaphor, the tool that discovers this
+information is called Ohai. Apparently, Opscode can haz lotz da memez 4
+mah codez!&lt;/p&gt;
+
+&lt;p&gt;Ohai discovery can be extended through plugins to provide custom
+attributes as well. Plugins exist for AWS and other cloud providers and
+so I decided to write one to expose Ninefold meta-data about servers
+such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;availability zone&lt;/li&gt;
+  &lt;li&gt;service offering&lt;/li&gt;
+  &lt;li&gt;public ip address&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As I grappled with the Ohai documentation I
+was painfully reminded of my first experience of Chef: &lt;em&gt;there’s something
+someone isn’t telling me because it’s not making sense&lt;/em&gt;. In the case of Ohai,
+not only is the plugin authoring scant on detail but the method of
+getting the plugin installed is subject to the 1st and 2nd Rules of Fight Club:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;you do not talk about how to install Ohai plugins&lt;/li&gt;
+  &lt;li&gt;you &lt;strong&gt;DO NOT&lt;/strong&gt; talk about how to install Ohai plugins&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;But never fear, Wazza is here to take you through it, one step at a time
+(that’s the 5th Rule of Fight Club).&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1--create-a-new-cookbook&quot;&gt;Step 1 – create a new cookbook&lt;/h3&gt;
+
+&lt;p&gt;Here’s one I created earlier: &lt;a href=&quot;https://github.com/thoughtcroft/chef-ninefold-ohai&quot;&gt;chef-ninefold-ohai&lt;/a&gt;.
+Feel free to fork this for your own use. The key things here are the plugin file itself in
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/files/default/plugins/ninefold.rb&lt;/code&gt; and the default recipe which will do
+the installation on the node &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/recipes/default.rb&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2--write-the-plugin&quot;&gt;Step 2 – write the plugin&lt;/h3&gt;
+
+&lt;p&gt;Essentially, you are going to write some simple ruby to expose
+attributes as a Mash (this is a built-in Chef class which provides a
+Hash with indifferent access i.e. you can access attributes as
+params[:key] or params[‘key’], params[:key][:subkey] or
+params.key.subkey etc.  So given a plugin called ninefold, we simply
+need:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;provides&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ninefold'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ninefold&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Mash&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# obtain meta_data from CloudPlatform&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ninefold&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'availability-zone'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;meta_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:zone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# example only&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Check the cookbook repo to see the actual meta-data retrieval code and
+attribute setting
+&lt;a href=&quot;https://github.com/ninefold/chef-ninefold-ohai/blob/master/files/default/plugins/ninefold.rb&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3--tell-chef-how-to-install-the-plugin&quot;&gt;Step 3 – tell Chef how to install the plugin&lt;/h3&gt;
+
+&lt;p&gt;The simplest way to install the plugin is by using Chef itself.  Create
+a default.rb recipe in the cookbook.&lt;/p&gt;
+
+&lt;p&gt;The first trick is to tell Chef to drop the plugin file onto the node
+where Ohai can find it.  We do this using the ‘ohai’ cookbook.  Simply
+create a key under the node’s ‘ohai.plugins’ attribute which is named
+after our cookbook (ninefold_ohai) with the name of the file folder in
+that cookbook where the plugin can be found (plugins).  The ohai default
+recipe will do the hard work for us by copying the ninefold.rb file into
+the custom plugins directory on the node.  Any other plugin files in
+this cookbook will also be installed, so this is an easily extensible
+way of installing multiple plugins.&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'ohai'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'plugins'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'ninefold_ohai'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'plugins'&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;include_recipe&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ohai'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The second trick is to update the chef-client configuration with the
+custom plugin path so that Ohai will load and evaluate the plugin at the
+start of each chef-client convergence.  This is very simple using the
+chef-client cookbook which will ensure that the client.rb file is
+properly configured.&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;include_recipe&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'chef-client::config'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Don’t forget to tell Chef that you need those two cookbooks whenever the
+ninefold_ohai cookbook is being loaded.  In the metadata.rb file add&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;depends&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ohai&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;depends&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;chef-client&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;step-4--ensure-the-plugin-is-loaded-at-the-start-of-the-node-convergence&quot;&gt;Step 4 – ensure the plugin is loaded at the start of the node convergence&lt;/h3&gt;
+
+&lt;p&gt;Simply add the following as the first item in the node’s run_list -
+‘recipe[ninefold_ohai]’ – and Ohai will automatically load our plugin
+and populate the ‘ninefold’ attributes for use by subsequently loaded
+recipes, or for chef searches after the node has converged.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tip: if it isn’t first in the run_list, recipes loaded before ninefold_ohai won’t be able to access the new custom attributes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now remember the 8th Rule of Fight Club: &lt;em&gt;if this is the first time you
+have looked at Ohai custom plugins, you HAVE to write an Ohai custom
+plugin&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;With this guide, it should be a piece of cake (now there’s a cooking
+term crying out for an Opscode Chef feature).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally published at Ninefold (2010-2015), a cloud
+services provider I helped found.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 26 Jul 2013 00:00:00 +1000</pubDate>
+        <link>http://wazza-is-awesome.com/devops/how-to-write-and-install-an-ohai-plugin.html</link>
+        <guid isPermaLink="true">http://wazza-is-awesome.com/devops/how-to-write-and-install-an-ohai-plugin.html</guid>
+        
+        <category>chef</category>
+        
+        <category>cloud</category>
+        
+        <category>devops</category>
+        
+        <category>infrastructure</category>
+        
+        <category>ninefold</category>
+        
+        <category>ohai</category>
+        
+        <category>plugin</category>
+        
+        <category>ruby</category>
+        
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>Whipping up awesome with Chef</title>
+        <description>&lt;p&gt;This is part 3 of my &lt;strong&gt;Cloud programming&lt;/strong&gt; series where I explore Chef,
+a very cool infrastructure automation tool.&lt;/p&gt;
+
+&lt;p&gt;When I started this blog series, I had a project in mind which required
+me to learn Ruby and how to use the Fog cloud abstraction library so
+that I could start and stop groups of Ninefold virtual servers at will.
+That project is still on the drawing board :), for now I have moved on to
+something far more important to our customers.&lt;/p&gt;
+
+&lt;p&gt;On my rubyist reinvention journey, I kept coming across something called
+Chef, an open source configuration management tool managed by OpsCode
+out of Seattle.  And as I listened to people’s enthusiasm about the
+power of Chef, I realised that this was the answer to two of our biggest
+challenges:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;managing Ninefold’s expanding infrastructure without expanding our ops
+team at the same rate;&lt;/li&gt;
+  &lt;li&gt;providing simple to use app deployment for our customers that also
+allows them to leverage the full power of our production grade
+multi-zone infrastructure.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s the quick explanation of Chef: &lt;strong&gt;your infrastructure as code&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;OK, a bit cryptic, so try this longer definition:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Chef is a systems integration framework, designed to bring configuration
+management to your entire infrastructure. It is an open source project
+with a vibrant community contributing to the base software and sharing
+cookbooks (abstracted definitions of resource configuration).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Servers are known as &lt;strong&gt;Nodes&lt;/strong&gt;. Nodes have attributes that describe the
+current or desired state of its configuration and provide one of several
+mechanisms for communicating config changes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Cookbooks&lt;/strong&gt; are collections of files which configure the nodes to a
+desired end-state. &lt;strong&gt;Recipes&lt;/strong&gt; are written using ruby and a recipe DSL which
+is readily extensible.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The various elements of the configuration are known as &lt;strong&gt;resources&lt;/strong&gt; e.g.
+apache web server, iptables firewall, mysql database etc.  Recipes are (should be)
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Idempotence#Computer_science_meaning&quot;&gt;idempotent&lt;/a&gt;
+i.e. re-running the recipe on a node multiple times always returns the system to
+an identical state.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In terms of software, chef-client runs on the node and talks to a server
+which holds the cookbooks and attribute status of all registered nodes.
+There is a special chef-solo version of the server which runs on the
+node, an open source chef-server, an OpsCode Hosted Chef server as a
+service and a licensed, multi-tenant, HA edition called Private Chef.&lt;/p&gt;
+
+&lt;p&gt;A chef-client run operates in two stages. During compilation, the
+various code files – libraries, attributes, definitions, recipes etc –
+are loaded and evaluated. A resource list is built from the DSL in each
+recipe in the order they appear. During convergence, each resource is
+configured according to the relevant DSL configuration.
+Rather than go into a lot more detail about Chef – and believe me, there
+is a lot of detail to get your head around – I am going to share my Top
+Four Tips for Chef.&lt;/p&gt;
+
+&lt;h3 id=&quot;tip-1---understand-the-difference-in-compilation-vs-convergence&quot;&gt;Tip 1 - Understand the difference in Compilation vs Convergence&lt;/h3&gt;
+
+&lt;p&gt;During compilation, any normal Ruby code is evaluated when the relevant
+file – attribute, library, recipe etc – is first loaded.  If you want to
+calculate some value after a resource has been converged and then save
+it in an attribute, you will need to delay the evaluation by wrapping
+the relevant code in a ruby_block resource:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;ruby_block&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;save&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'some_host'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'configured_time'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;save&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;action&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:create&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For a more detailed and highly readable explanation, check out the
+&lt;a href=&quot;https://docs.chef.io/chef_client.html&quot;&gt;Anatomy of a Chef Run&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;tip-2----the-cause-of-chef-run-terminating-with-undefined-method--for-nilnilclass&quot;&gt;Tip 2 -  The cause of chef run terminating with “undefined method ‘[]’ for nil:NilClass”&lt;/h3&gt;
+
+&lt;p&gt;This initially perplexing message is almost always due to trying to
+reference a node attribute that doesn’t exist. For example if I am
+expecting to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node['my_cookbook']['app']['version']&lt;/code&gt; somewhere in my
+recipe, I will get the value ‘nil’ if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node['my_cookbook']['app']&lt;/code&gt; exists
+but there is no &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;['version']&lt;/code&gt; attribute.  But if
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node['my_cookbook']['app']&lt;/code&gt; also doesn’t exist then I get the dreaded
+undefined method ‘[]’ since I am in effect trying to reference
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nil['version']&lt;/code&gt; and nil doesn’t have a ‘[]’ method.&lt;/p&gt;
+
+&lt;p&gt;To avoid this common occurrence in your early recipe writing, ensure
+attributes exist before you use them.  Two methods are:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;attribute?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'version'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# there is some attribute somewhere called 'version'&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# perhaps not the best method&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'my_cookbook'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'app'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'my_cookbook'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'app'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'version'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# there is an 'app' and a 'version' for 'app'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;tip-3----essential-knife-plug-in-knife-block&quot;&gt;Tip 3 -  Essential knife plug-in: knife-block&lt;/h3&gt;
+
+&lt;p&gt;Knife is the command line tool for managing your chef server and nodes
+from your workstation. If you use Chef Server it is likely that you will
+have more than one of these.  At Ninefold, we use Private Chef and as
+well as multiple instances of the server, we also have multiple
+organisations within each server – you can think of each organisation as
+a logical Chef Server with separate cookbooks etc but sharing the one
+client-validation key.&lt;/p&gt;
+
+&lt;p&gt;Managing multiple knife.rb configuration files is a bit of a nightmare,
+and requires you to place the relevant knife.rb, chef-validator.pem and
+client.pem files into each project. But then if you want to push a
+cookbook that you are working on from your development chef to your
+testing chef, there is a spot of juggling required. That is until you
+install the
+&lt;a href=&quot;https://github.com/knife-block/knife-block&quot;&gt;knife-block plugin&lt;/a&gt;
+by Green and Secure IT Limited.&lt;/p&gt;
+
+&lt;p&gt;Place all your knife.rb and .pem files into your /home/.chef/ directory
+and rename each knife.rb file as knife-{something}.rb e.g. knife-dev.rb,
+knife-test.rb, knife-wazza-is-awesome.rb. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;knife block dev&lt;/code&gt; will create
+a knife.rb symlink to the knife-dev.rb.&lt;/p&gt;
+
+&lt;p&gt;knife walks up the directory structure looking in ../.chef/ to find the
+knife.rb configuration so placing all those files in /home/.chef/ means
+knife will always find the configuration required for your current chef
+context.  At any time you can find out your choices by&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;knife block list
+  The available chef servers are:
+    &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; dev
+    &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; wazza-is-awesome &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; Currently Selected &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And switch context simply using&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;knife block &lt;span class=&quot;nb&quot;&gt;test
+  &lt;/span&gt;The knife configuration has been updated to use &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;knife block list
+  The available chef servers are:
+    &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; dev
+    &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; Currently Selected &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; wazza-is-awesome
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;tip-4----manage-cookbook-dependencies-using-berkshelf&quot;&gt;Tip 4 -  Manage cookbook dependencies using Berkshelf&lt;/h3&gt;
+
+&lt;p&gt;As &lt;a href=&quot;http://berkshelf.com&quot;&gt;Berkshelf&lt;/a&gt; states “If you’re familiar with Bundler, then
+Berkshelf is a breeze”.&lt;/p&gt;
+
+&lt;p&gt;A cookbook’s metadata.rb file uses ‘depends’ clauses to specify cookbook
+dependencies – at Ninefold, we almost always specify exact versions to
+isolate us from potential breaking changes. Chef ensures that these
+versions are loaded onto the node at the start of a run provided they
+are present on the Chef Server. How do they get on to the server in the
+first place? You upload them using knife.  But if you have a number of
+cookbook development projects and if you are reliant on specific branch
+versions of community cookbooks, then managing this process is very
+difficult. Until Berkshelf.&lt;/p&gt;
+
+&lt;p&gt;And ermagherd, Berkshelf ers ersum!&lt;/p&gt;
+
+&lt;p&gt;Cookbooks can be easily managed in single repositories. Dependency data
+can be drawn from the cookbook’s metadata.rb and the source of dependent
+cookbooks can be defined in various ways. Cookbooks are installed into
+/home/.berkshelf and this is where they are sourced by default but if
+missing from there they can be sourced from the Opscode Community
+Cookbooks site, a specific branch of a git repository, a path on the
+workstation or from a chef server.  Once the cookbooks have been
+installed or updated they can be bulk uploaded into the Chef Server.&lt;/p&gt;
+
+&lt;p&gt;Ninefold’s cookbook development and customer provisioning process makes
+extensive use of Berkshelf and I highly recommend reading an
+introduction to authoring cookbooks by Jamie Winsor, the creator of
+Berkshelf.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally published at Ninefold (2010-2015), a cloud
+services provider I helped found.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 22 Mar 2013 00:00:00 +1100</pubDate>
+        <link>http://wazza-is-awesome.com/devops/whipping-up-awesome-with-chef.html</link>
+        <guid isPermaLink="true">http://wazza-is-awesome.com/devops/whipping-up-awesome-with-chef.html</guid>
+        
+        <category>automation</category>
+        
+        <category>chef</category>
+        
+        <category>cloud</category>
+        
+        <category>devops</category>
+        
+        <category>infrastructure</category>
+        
+        <category>ninefold</category>
+        
+        
+        <category>devops</category>
+        
+      </item>
+    
+      <item>
+        <title>How I learned to stop worrying and love the cloud</title>
+        <description>&lt;p&gt;This is part 2 of my &lt;strong&gt;Cloud programming&lt;/strong&gt; series where I give myself a
+crash-course in learning Ruby.&lt;/p&gt;
+
+&lt;p&gt;When I first read the list of language features in the [Wikipedia entry
+on the Ruby programming
+language](https://en.wikipedia.org/wiki/Ruby_(programming_language), I
+started screaming like a two year old.  Seriously, I did computer
+science at ANU in the late (mumble)ties but I don’t remember learning
+anything about first class continuations, closures, fibers or
+duck-typing.  But as we learned in the Stanley Kubrick classic &lt;a href=&quot;http://www.imdb.com/title/tt0057012/&quot;&gt;Dr
+Strangelove or: How I Learned to Stop Worrying and Love the
+Bomb&lt;/a&gt;, the best way to confront
+your fear is to embrace it wholeheartedly.&lt;/p&gt;
+
+&lt;p&gt;In order to deliver on the challenge I set myself in &lt;a href=&quot;/cloud/a-social-cloud-experiment.html&quot;&gt;Part 1&lt;/a&gt;, I decided I’d better
+give myself a crash-course in Ruby.&lt;/p&gt;
+
+&lt;p&gt;One of the first things I discovered about the Ruby programming world is
+this: almost everyone uses a Mac (My theory? There are 57% more letters
+in ‘Windows’ and brevity is one of the hallmarks of the Rubyist).  But
+there is a perfectly adequate Ruby installer for Windows for those of us
+still transitioning to the modern world (in fact my preferred Ruby
+programming platform is now Ubuntu but let’s not get ahead of
+ourselves).&lt;/p&gt;
+
+&lt;p&gt;I like good documentation, which can be a problem in open source
+projects (The code is the documentation, dude! Really?), so I was
+pleased to see that the Windows install includes &lt;a href=&quot;https://www.amazon.com.au/Book-Ruby-Hands--Guide-Adventurous-ebook/dp/B005EI84QA/ref=sr_1_4?s=digital-text&amp;amp;ie=UTF8&amp;amp;qid=1469689781&amp;amp;sr=1-4&quot;&gt;The Book of
+Ruby&lt;/a&gt;
+by Huw Collingbourne. However, the edition I got was based on Ruby 1.8
+not the 1.9 version that was installed. So I headed over to &lt;a href=&quot;https://pragprog.com/&quot;&gt;The
+Pragmatic Bookshelf&lt;/a&gt; for a copy of the complete
+reference guide to &lt;a href=&quot;https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0&quot;&gt;Programming Ruby
+1.9&lt;/a&gt; by Dave
+Thomas, otherwise known as the “PickAxe”. I have found this book
+invaluable. On a side note, I love that you can set up your Pragmatic
+account so that when you purchase an e-book it is automatically
+delivered to your Dropbox and Kindle within minutes.&lt;/p&gt;
+
+&lt;p&gt;Next up, I installed an IDE (see, this Windows upbringing is hard to
+shake), the excellent JetBrains RubyMine which is much more than an
+editor.  I’ll explain more about this choice in a future blog.&lt;/p&gt;
+
+&lt;p&gt;I then embarked on a self-directed learning program.&lt;/p&gt;
+
+&lt;p&gt;I read through (and even understood some of) &lt;a href=&quot;http://poignant.guide/&quot;&gt;Why’s Poignant Guide to
+Ruby&lt;/a&gt;. This tries to twist your head into the
+same dimension as the author which in my case was only moderately
+successful, but it did whet my appetite with a taste of Ruby’s beauty.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://tryruby.org/&quot;&gt;Try Ruby&lt;/a&gt; is an interactive tutorial, providing a
+basic introduction to the language via a browser based REPL (that’s
+read-eval-print-loop or “console” for the rest of us). Like everyone
+else, my first Ruby line of code was: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;puts &quot;Hello World!&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://learnrubythehardway.org/&quot;&gt;Learn Ruby the Hard Way&lt;/a&gt; by Zed A.
+Shaw and Rob Sobers is a PDF guide to learning programming in Ruby,
+basically through repetition. There are 52 exercises that you read, type
+in the sample code and run to check that you did it correctly. I
+eventually found this quite tedious and skipped out at #42 but it did
+get me started writing in the language.&lt;/p&gt;
+
+&lt;p&gt;Finally, I decided to climb onto the atomic bomb and ride that sucker
+all the way down to ground zero: I went to &lt;a href=&quot;http://railscamps.com/&quot;&gt;Rails
+Camp&lt;/a&gt;  11 which was held over a weekend in June
+2012 at Koonjewarre, Springbrook in Queensland. This really was a
+fantastic experience that I highly recommend and with the help of people
+like Carl Woodward and Jeremy Grant, I managed to push out a working
+Sinatra app to display a dashboard of scalable time-series charts of
+Ninefold usage data using Highcharts.&lt;/p&gt;
+
+&lt;p&gt;From:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;vi&quot;&gt;@exclude&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;AND t.account_id NOT IN (
+  &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exclusions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;'&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;'&quot;&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.join(&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;) })&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exclusions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;nil?&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I have evolved…&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally published at Ninefold (2010-2015), a cloud
+services provider I helped found.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 08 Oct 2012 00:00:00 +1100</pubDate>
+        <link>http://wazza-is-awesome.com/cloud/how-i-learned-to-stop-worrying-and-love-the-cloud.html</link>
+        <guid isPermaLink="true">http://wazza-is-awesome.com/cloud/how-i-learned-to-stop-worrying-and-love-the-cloud.html</guid>
+        
+        <category>books</category>
+        
+        <category>cloud</category>
+        
+        <category>ninefold</category>
+        
+        <category>programming</category>
+        
+        <category>ruby</category>
+        
+        
+        <category>cloud</category>
+        
+      </item>
+    
+      <item>
+        <title>A social cloud programming experiment</title>
+        <description>&lt;p&gt;This is part 1 of my &lt;strong&gt;Cloud programming&lt;/strong&gt; series where I embark on a
+journey to learn more about programming in the cloud.&lt;/p&gt;
+
+&lt;p&gt;The cloud is a technological hub of remarkable innovation. However, an
+idea has been developing in my mind for some time: a cloud programming
+project where I document each step of the journey as I build something
+unique and useful for our customers — something I hope you will join me
+in creating.&lt;/p&gt;
+
+&lt;p&gt;I recently overheard a discussion that our support team had with a
+customer that described the perfect candidate for such an experiment.
+The customer is using Ninefold to provide the IT infrastructure for
+their business, but many of the servers they use do not need to run
+24x7. They would like to minimise their costs by turning off servers.
+Customers with a single server in this position can control their costs
+through our SimplePlan, but for customers with multiple servers a tool
+to start or stop them in one operation would be just the ticket.&lt;/p&gt;
+
+&lt;p&gt;And that is what we will be building in this project: a simple tool to
+start or stop all the cloud servers in a customer account in one
+operation.&lt;/p&gt;
+
+&lt;p&gt;As one of the original founders of Ninefold, I have had an
+intellectually challenging, exciting and at times scary two years of
+intensive work with the cloud. Research, analysis, business case
+development, project management, team building, branding, and software
+development (draws breath) all played a vital role in the successful
+launch of Ninefold.&lt;/p&gt;
+
+&lt;p&gt;I started my career as a developer, and while I have kept my hand in
+various projects and still contribute to the Visual Basic for
+Applications community — check out my VBA Adventures and the Microsoft
+Project Holiday Import Wizard — I really don’t know a great deal about
+the pointy end of programming in the cloud.&lt;/p&gt;
+
+&lt;p&gt;So I have decided to embark on a personal growth journey, and one that I
+think will be very relevant to the Ninefold community: I am going to
+learn a new programming language and build a stop/start server tool that
+will be useful to our customers. And I hope that you will jump on board
+and help me build it.&lt;/p&gt;
+
+&lt;p&gt;This idea has been germinating for some time. When we were researching
+the cloud market it became clear that there were a number of &lt;strong&gt;table
+stake&lt;/strong&gt; characteristics necessary for Ninefold to be considered a true
+cloud computing service:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Self-service – Fully-automated provisioning under the customer’s
+control.&lt;/li&gt;
+  &lt;li&gt;On-demand – Resources can be spun up when required at any time (24/7).&lt;/li&gt;
+  &lt;li&gt;Scalable and elastic – Customers can increase and decrease their
+resources as required.&lt;/li&gt;
+  &lt;li&gt;Pay as you go – No contracts. Signup with a credit card and pay only
+for what you use.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Although not so obvious initially, there is another that underpins many
+of the above:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cloud services must be exposed via an API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Application Programming Interface (API) allows devs to control the
+cloud through code. The Ninefold Portal uses our API to provision
+resources, and our customers can also utilise a public subset to
+automate provisioning from within their application. For example, a
+server can monitor web-traffic and spin up additional servers in a
+load-balancing group when the traffic crosses defined thresholds,
+reducing the number of servers when the traffic falls below those
+thresholds.&lt;/p&gt;
+
+&lt;p&gt;Our cloud provisioning API is described in detail in our customer wiki,
+but we also recognise that most developers will prefer to abstract away
+the differences between different cloud providers. So we have encouraged
+and funded the inclusion of Ninefold in key cloud developer code
+libraries such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;fog for Ruby&lt;/li&gt;
+  &lt;li&gt;Apache Libcloud for Python&lt;/li&gt;
+  &lt;li&gt;jclouds for Java and Clojure&lt;/li&gt;
+  &lt;li&gt;Ninefold on Nuget for .NET&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This activity has only whet my appetite to become more hands-on in cloud
+programming. In part two of this series I will share my choice of
+language and the various tools that I will be employing on my project,
+as well as how you can participate in the best traditions of open
+source.&lt;/p&gt;
+
+&lt;p&gt;Keep an eye out for part two next week where we will flesh out the task,
+commence the design, describe the language and tool choices and invite
+your participation in the project. It will be fun and challenging and I
+look forward to working with you. And believe me, given the learning
+curve ahead I am depending on your help!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally published at Ninefold (2010-2015), a cloud
+services provider I helped found.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 16 Apr 2012 00:00:00 +1000</pubDate>
+        <link>http://wazza-is-awesome.com/cloud/a-social-cloud-experiment.html</link>
+        <guid isPermaLink="true">http://wazza-is-awesome.com/cloud/a-social-cloud-experiment.html</guid>
+        
+        <category>api</category>
+        
+        <category>ninefold</category>
+        
+        <category>programming</category>
+        
+        
+        <category>cloud</category>
+        
+      </item>
+    
+      <item>
+        <title>Faster than a speeding byte</title>
+        <description>&lt;p&gt;There are a number of reasons why an Australian cloud server can be
+better for you than an offshore equivalent. However, latency is easily
+one of the most popular. So how much of a difference can it really make?&lt;/p&gt;
+
+&lt;p&gt;Latency is a synonym for delay, and in networking refers to a variety of
+delays that can occur in transmitting data from one point to another.
+These can include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;propagation delays (mostly due to the speed of light and the distance
+the signal must travel)&lt;/li&gt;
+  &lt;li&gt;transmission delays (due to the physical properties of the
+transmission media); and&lt;/li&gt;
+  &lt;li&gt;processing delays (from the number of hops through different types of
+devices such as proxy servers and routers)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These delays can vary considerably due to traffic load or intermittent
+faults but generally speaking, they increase the further the data has to
+travel.&lt;/p&gt;
+
+&lt;p&gt;Typically, latency is measured by using ping tests which record the
+round trip time for a packet of data to travel from source to
+destination and back again, measured in milliseconds (ms). The longer
+this takes, the slower a web app can display its web pages to the end
+user and the customer experience suffers. Depending on how complex the
+html, how many scripts must be parsed and how many images must be
+retrieved, increased network latency measured in milliseconds can slow
+down a webpage display by seconds.&lt;/p&gt;
+
+&lt;p&gt;For startups and developers targeting the Australian market, locally
+based cloud is a much better alternative as it moves the data and
+processing much, much closer to the customer.&lt;/p&gt;
+
+&lt;p&gt;To illustrate this point I ran 100 ping tests using Ping Plotter against
+the Ninefold servers compared to a significant US based cloud provider.&lt;/p&gt;
+
+&lt;p&gt;These tests show that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The average latency for a typical Australian ADSL customer to Ninefold
+is 20 ms&lt;/li&gt;
+  &lt;li&gt;The average latency for the same customer to a US West Coast based
+cloud is 271 ms&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That represents a speed advantage over 13 times in our favour.&lt;/p&gt;
+
+&lt;p&gt;When we consider the minimum times of 15ms to 266ms it becomes almost 18
+times better latency locally.&lt;/p&gt;
+
+&lt;p&gt;Given the variations that different people will experience on the
+interwebs, I feel entirely confident that we have at least a nine-fold
+latency advantage over offshore cloud providers.&lt;/p&gt;
+
+&lt;p&gt;And that is something your customers will definitely appreciate.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally published at Ninefold (2010-2015), a cloud
+services provider I helped found.&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 11 Feb 2011 00:00:00 +1100</pubDate>
+        <link>http://wazza-is-awesome.com/cloud/faster-than-a-speeding-byte.html</link>
+        <guid isPermaLink="true">http://wazza-is-awesome.com/cloud/faster-than-a-speeding-byte.html</guid>
+        
+        <category>latency</category>
+        
+        <category>network</category>
+        
+        <category>ninefold</category>
+        
+        <category>ping</category>
+        
+        
+        <category>cloud</category>
+        
+      </item>
+    
+      <item>
+        <title>Taking control of cloud billing</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Originally published when I worked at Ninefold, an Australian cloud
+services provider I co-founded, that operated from 2010 - 2015.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At Ninefold, we first started looking at the cloud market and its
+possibilities in 2010.&lt;/p&gt;
+
+&lt;p&gt;We started with the technologies, understanding the different players in
+the market and assessing the massive predictions about the growth
+potential of cloud computing as touted by IDC, Gartner and the like. It
+quickly became apparent to us that cloud computing really could
+represent a “tipping point” for the IT industry and that, as many people
+have predicted, it could completely transform the delivery of computing.&lt;/p&gt;
+
+&lt;p&gt;John McCarthy put it this way:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Computing may someday be organised as a public utility (and) the
+computer utility could become the basis of a new and important
+industry.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And this was in 1961! It has been a long time coming, but the evidence
+is showing that cloud is starting to deliver on that promise. The
+question is: &lt;em&gt;who are the customers?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As we talked to people in the industry and started to understand the
+user community, we quickly identified that the early adopters of cloud
+computing were not enterprises with their massive investment in existing
+IT infrastructure, running applications architected around yesterday’s
+IT models and supported by in-house staff. And while there has been a
+significant move to Software-as-a-Service business applications
+delivered to SMB and larger organisations - typified by the CRM
+category-killer, Salesforce.com – this represents an evolutionary change
+in software delivery and not the computing service revolution we sensed
+in the wind.&lt;/p&gt;
+
+&lt;p&gt;In fact, while many people are fixated on the potential cost savings of
+cloud, early adopters focused instead on agility and flexibility - on
+getting their service to the market quickly and not being constrained by
+the need to invest valuable capital into hardware and software assets
+housed in expensive data centres.&lt;/p&gt;
+
+&lt;p&gt;Today’s IT start-ups, web entrepreneurs and digital agencies are
+completely reliant on computing to run their business. IT &lt;strong&gt;is&lt;/strong&gt; the
+business for many of them. Their success relies on being able to respond
+to the demands of the market quicker than their competitors. They tap
+into social networks, run time-bounded campaigns, and must be able to
+quickly scale their computing infrastructure upwards and downwards in
+response to the elastic demands of a global marketplace.&lt;/p&gt;
+
+&lt;p&gt;One of the biggest concerns these start-ups shared with us was this:
+&lt;em&gt;how much will the cloud cost me?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;They don’t know what customer demand will be next month. That’s why they
+move to the cloud, to quickly respond to changes in demand. But that
+brings uncertainty about the potential costs. And if they use a US based
+cloud, currency fluctuations add additional uncertainty.&lt;/p&gt;
+
+&lt;p&gt;We get it.&lt;/p&gt;
+
+&lt;p&gt;So when we built Ninefold, we made sure that our customers had the tools
+to manage their cloud usage.&lt;/p&gt;
+
+&lt;p&gt;You can organise your cloud resources into projects, the same way that
+you organise your business. Those projects can be given a budget and
+that budget can be allocated amongst the people working on the project.
+If you set spend thresholds on a project or on the users in the project,
+you and your colleagues will receive an email notification when those
+thresholds have been reached - for example, an email when your cloud
+resource consumption has reached 75% of your budget spend.&lt;/p&gt;
+
+&lt;p&gt;You can also see detailed current and historical usage charts in your
+cloud dashboard so you know exactly which resources account for how much
+of your spend.&lt;/p&gt;
+
+&lt;p&gt;It’s about giving you the information you need to make sensible business
+decisions.&lt;/p&gt;
+
+&lt;p&gt;It’s about empowering our community to maximise their use of cloud
+computing.&lt;/p&gt;
+
+&lt;p&gt;That’s the Ninefold way.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Jan 2011 00:00:00 +1100</pubDate>
+        <link>http://wazza-is-awesome.com/cloud/taking-control-of-cloud-billing.html</link>
+        <guid isPermaLink="true">http://wazza-is-awesome.com/cloud/taking-control-of-cloud-billing.html</guid>
+        
+        <category>billing</category>
+        
+        <category>cost control</category>
+        
+        <category>ninefold</category>
+        
+        
+        <category>cloud</category>
+        
+      </item>
+    
+      <item>
+        <title>How to tell if a file is a Word document</title>
+        <description>&lt;p&gt;I am building a tool that needs to do something to all the Word
+documents in a set of folders. There are other sorts of files in these
+folders so I need to filter the list. I didn’t want to hard code the
+file extensions that constitute Word documents because these change
+according to the version and will do so in future. So I decided to
+develop a function that is cross-version compatible.&lt;/p&gt;
+
+&lt;p&gt;To determine the documents that Microsoft Word can open and update
+natively, I am using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Filters&lt;/code&gt; collection from the
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Application.FileDialog&lt;/code&gt; object which is available in Word version 2002
+onwards. This is the list of extensions that can be selected in the File
+Open dialog to filter the files that can be opened in Word. Seems to
+work like a charm. For earlier versions, you’ll need to hardcode the
+extensions.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/thoughtcroft/722d4f97b0622726a98f8e0d3f341dd1.js&quot;&gt; &lt;/script&gt;
+
+</description>
+        <pubDate>Thu, 01 Apr 2010 00:00:00 +1100</pubDate>
+        <link>http://wazza-is-awesome.com/vba/how-to-tell-if-a-file-is-a-word-document.html</link>
+        <guid isPermaLink="true">http://wazza-is-awesome.com/vba/how-to-tell-if-a-file-is-a-word-document.html</guid>
+        
+        <category>file</category>
+        
+        <category>vba</category>
+        
+        <category>word</category>
+        
+        
+        <category>vba</category>
+        
+      </item>
+    
   </channel>
 </rss>

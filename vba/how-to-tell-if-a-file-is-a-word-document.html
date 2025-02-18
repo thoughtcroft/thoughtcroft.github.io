@@ -14,12 +14,11 @@
 <meta name="theme-color" content="#ffffff">
 
 
-  <title>wazza is awesome</title>
-  <meta name="description" content="A vainglorious attempt to prove Wazza's general awesomeness. Then again, people have actually rated him for that on LinkedIn.
-">
+  <title>How to tell if a file is a Word document</title>
+  <meta name="description" content="I am building a tool that needs to do something to all the Worddocuments in a set of folders. There are other sorts of files in thesefolders so I need to fil...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://wazza-is-awesome.com/">
+  <link rel="canonical" href="http://wazza-is-awesome.com/vba/how-to-tell-if-a-file-is-a-word-document.html">
   <link rel="alternate" type="application/rss+xml" title="wazza is awesome" href="http://wazza-is-awesome.com/feed.xml">
   
     <!-- Add Google Analytics. -->
@@ -232,107 +231,78 @@ ga('send', 'pageview');
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
-  <h1 class="post-title">Posts</h1>
-  <!-- This loops through the paginated posts -->
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Feb 26, 2021</span>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <h2><a class="post-link" href="/aquaponics/prototype-aquaponics-system-design.html">Prototype aquaponic system design</a></h2>
-        <p>I should confess right upfront that I heavily researched (stolen) most of my ideas from the Aquaponics community and in particular, Rob Gray, whose excellent Rob Bob’s Aquaponics &amp; Backyard Farm YouTube channel, is...</p>
-      </li>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">How to tell if a file is a Word document</h1>
+    <p class="post-meta"><time datetime="2010-04-01T00:00:00+11:00" itemprop="datePublished">Apr 1, 2010</time>
     
-      <li>
-        <span class="post-meta">Feb 25, 2021</span>
+     • <a href="/tag/file.html" rel="tag">file</a>, <a href="/tag/vba.html" rel="tag">vba</a>, <a href="/tag/word.html" rel="tag">word</a></p>
+  </header>
 
-        <h2><a class="post-link" href="/aquaponics/aquaponics-is-my-new-project.html">My aquaponics journey</a></h2>
-        <p>It is now two years since I first became interested in aquaponics. I was trying to grow a lot of basil and a friend of mine suggested using my frog pond as a water...</p>
-      </li>
+  <div class="post-content" itemprop="articleBody">
+    <p>I am building a tool that needs to do something to all the Word
+documents in a set of folders. There are other sorts of files in these
+folders so I need to filter the list. I didn’t want to hard code the
+file extensions that constitute Word documents because these change
+according to the version and will do so in future. So I decided to
+develop a function that is cross-version compatible.</p>
+
+<p>To determine the documents that Microsoft Word can open and update
+natively, I am using the <code class="language-plaintext highlighter-rouge">Filters</code> collection from the
+<code class="language-plaintext highlighter-rouge">Application.FileDialog</code> object which is available in Word version 2002
+onwards. This is the list of extensions that can be selected in the File
+Open dialog to filter the files that can be opened in Word. Seems to
+work like a charm. For earlier versions, you’ll need to hardcode the
+extensions.</p>
+
+<script src="https://gist.github.com/thoughtcroft/722d4f97b0622726a98f8e0d3f341dd1.js"> </script>
+
+
+  </div>
+
+</article>
+
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
     
-      <li>
-        <span class="post-meta">Aug 4, 2016</span>
-
-        <h2><a class="post-link" href="/devops/taking-control-of-your-ssh-config.html">Simplify server access by using an SSH config file</a></h2>
-        <p>If you are a devops engineer or a developer, at some point you will need to jump onto a server to configure some software, access logs and generally just check out what is happening. If...</p>
-      </li>
+      <li><span>Aug 27, 2008</span> &raquo; <a href="/vba/is-that-file-open.html">Is that file open?</a></li>
     
-      <li>
-        <span class="post-meta">Jul 26, 2013</span>
-
-        <h2><a class="post-link" href="/devops/how-to-write-and-install-an-ohai-plugin.html">How to write and install an Ohai plugin, the Fight Club way</a></h2>
-        <p>This is part 4 of my Cloud programming series where I show you how to extend Ohai node discovery with custom attributes for use in Chef recipes. My loyal readers (Hi Mum and Dad!) will...</p>
-      </li>
+      <li><span>Feb 26, 2010</span> &raquo; <a href="/vba/handling-strings-containing-quotes-in-sql.html">Handling strings containing quotes in SQL</a></li>
     
-      <li>
-        <span class="post-meta">Mar 22, 2013</span>
-
-        <h2><a class="post-link" href="/devops/whipping-up-awesome-with-chef.html">Whipping up awesome with Chef</a></h2>
-        <p>This is part 3 of my Cloud programming series where I explore Chef, a very cool infrastructure automation tool. When I started this blog series, I had a project in mind which required me to...</p>
-      </li>
+      <li><span>Apr 15, 2009</span> &raquo; <a href="/vba/microsoft-project-holiday-import-wizard.html">Microsoft Project holiday import wizard</a></li>
     
-      <li>
-        <span class="post-meta">Oct 8, 2012</span>
-
-        <h2><a class="post-link" href="/cloud/how-i-learned-to-stop-worrying-and-love-the-cloud.html">How I learned to stop worrying and love the cloud</a></h2>
-        <p>This is part 2 of my Cloud programming series where I give myself a crash-course in learning Ruby. When I first read the list of language features in the [Wikipedia entry on the Ruby programming...</p>
-      </li>
-    
-      <li>
-        <span class="post-meta">Apr 16, 2012</span>
-
-        <h2><a class="post-link" href="/cloud/a-social-cloud-experiment.html">A social cloud programming experiment</a></h2>
-        <p>This is part 1 of my Cloud programming series where I embark on a journey to learn more about programming in the cloud. The cloud is a technological hub of remarkable innovation. However, an idea...</p>
-      </li>
+      <li><span>Jan 28, 2009</span> &raquo; <a href="/vba/error-in-excel-2007-workbooks-open-method.html">Error in Excel 2007 workbooks open method</a></li>
     
   </ul>
 </div>
 
-<!-- Pagination links -->
 
-  <div class="pagination">
 
-      
-        <span class="prev">&laquo; Prev</span>
-      
+  
 
-      
-        
-          <em class="page">1</em>
-        
-      
-        
-          <a class="page" href="page/2">2</a>
-        
-      
-        
-          <a class="page" href="page/3">3</a>
-        
-      
-        
-          <a class="page" href="page/4">4</a>
-        
-      
-        
-          <a class="page" href="page/5">5</a>
-        
-      
-        
-          <a class="page" href="page/6">6</a>
-        
-      
-
-      
-        <a class="next" href="/page/2">Next &raquo;</a>
-      
-  </div>
+  <!-- Add Disqus comments. -->
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+var disqus_config = function () {
+  this.page.url = 'http://wazza-is-awesome.com/vba/how-to-tell-if-a-file-is-a-word-document.html';
+  this.page.identifier = '/vba/how-to-tell-if-a-file-is-a-word-document';
+};
+(function() {
+  var d = document, s = d.createElement('script');
+  s.src = '//wazza-is-awesome.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+})();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <!-- End Disqus comments. -->
 
 
 
-<div>
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
-</div>
+
 
       </div>
     </div>
