@@ -5,7 +5,7 @@ date:     2009-04-15
 category: vba
 tags:
   - holiday
-  - import,
+  - import
   - outlook
   - project
   - vba
@@ -24,4 +24,4 @@ you don't have Outlook installed, the wizard will take you to a page
 where you can learn about this file and download a copy to use as a
 source of holiday dates.
 
-Best of all: its free!
+Best of all: it's free!
