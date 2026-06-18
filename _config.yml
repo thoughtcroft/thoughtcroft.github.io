@@ -26,16 +26,12 @@ url: "https://wazza-is-awesome.com"
 github:
   username: thoughtcroft
 
-twitter:
-  username: thoughtcroft
-
 social:
   name: Warren Bain
-  email: warren@thoughtcroft.com
+  email: warren@bainsworld.com
   fediverse_handle:
   links:
     - https://github.com/thoughtcroft
-    - https://twitter.com/thoughtcroft
     - https://www.linkedin.com/in/warrenbain
 
 # Site Verification Settings
@@ -78,7 +74,7 @@ theme_mode:
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 social_preview_image:

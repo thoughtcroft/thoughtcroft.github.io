@@ -3,9 +3,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Warren Bain, better known as Wazza, is a seasoned IT veteran still on active duty.
+Warren Bain, better known as Wazza, is a seasoned IT veteran recently retired from active duty.
 
-Currently he is the product manager for a low-code application
+Most recently he was the product manager for a low-code application
 development platform for building next-gen web-enabled apps.
 
 In his career he has worked with many technologies:
@@ -15,13 +15,13 @@ In his career he has worked with many technologies:
 * Ruby scripting, app and gem development
 * Infrastructure automation using Chef, Docker, Vagrant, and Bash
 * IoT development on Arduino / ESP8266 and using Thingsboard
+* Enterprise web apps built using .NET, TypeScript, Vue.js, SQL Server
 
-Wazza has always been excited to learn new things and use them to solve real business problems. More than a technologist, Wazza also
+Wazza has always been excited to learn new things and use them to solve real business problems. More than a technologist, Wazza has also
 
-* writes business cases that get approved
-* presents at the C & Board level and everywhere below
-* delivers conference talks
-* shares his knowledge and experience via consulting and mentoring
+* written business cases that get approved
+* presented at the C & Board level and everywhere below
+* delivered conference talks
+* shared his knowledge and experience via consulting and mentoring
 
-This blog shares some of the things Wazza has learned along the way, and
-touches on his diverse professional and personal interests.
+This blog shares some of the things Wazza has learned along the way, and touches on his diverse professional and personal interests.
