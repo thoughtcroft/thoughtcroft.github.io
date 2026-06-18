@@ -1,12 +1,14 @@
 ---
-layout:   post
-title:    "Automation Manager Class"
-date:     2008-06-19
-category: vba
+layout: post
+title: Automation Manager Class
+date: 2008-06-19
+categories:
+- vba
 tags:
-  - access
-  - excel
-  - vba
+- access
+- excel
+- vba
+redirect_from: "/vba/automation-manager-class.html"
 ---
 
 I needed a way to manage calls to different office automation servers in

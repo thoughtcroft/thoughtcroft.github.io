@@ -1,12 +1,14 @@
 ---
-layout:   post
-title:    "My investment reference books"
-date:     2003-11-09
-category: smsf
+layout: post
+title: My investment reference books
+date: 2003-11-09
+categories:
+- smsf
 tags:
-  - books
-  - investing
-  - superannuation
+- books
+- investing
+- superannuation
+redirect_from: "/smsf/my-investment-reference-books.html"
 ---
 
 I've been consuming books like crazy to get ourselves ready for managing

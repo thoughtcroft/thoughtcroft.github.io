@@ -1,14 +1,16 @@
 ---
-layout:   post
-title:    "How I learned to stop worrying and love the cloud"
-date:     2012-10-08
-category: cloud
+layout: post
+title: How I learned to stop worrying and love the cloud
+date: 2012-10-08
+categories:
+- cloud
 tags:
-  - books
-  - cloud
-  - ninefold
-  - programming
-  - ruby
+- books
+- cloud
+- ninefold
+- programming
+- ruby
+redirect_from: "/cloud/how-i-learned-to-stop-worrying-and-love-the-cloud.html"
 ---
 
 This is part 2 of my **Cloud programming** series where I give myself a
@@ -98,4 +100,5 @@ To:
 
 I have evolved…
 
-{% include ninefold_disclose.md %}
+*Originally published at Ninefold (2010-2015), a cloud
+services provider I helped found.*

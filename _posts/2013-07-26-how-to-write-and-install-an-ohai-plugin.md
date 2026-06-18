@@ -1,17 +1,19 @@
 ---
-layout:   post
-title:    "How to write and install an Ohai plugin, the Fight Club way"
-date:     2013-07-26
-category: devops
+layout: post
+title: How to write and install an Ohai plugin, the Fight Club way
+date: 2013-07-26
+categories:
+- devops
 tags:
-  - chef
-  - cloud
-  - devops
-  - infrastructure
-  - ninefold
-  - ohai
-  - plugin
-  - ruby
+- chef
+- cloud
+- devops
+- infrastructure
+- ninefold
+- ohai
+- plugin
+- ruby
+redirect_from: "/devops/how-to-write-and-install-an-ohai-plugin.html"
 ---
 
 This is part 4 of my **Cloud programming** series where I show you how
@@ -142,4 +144,5 @@ plugin*.
 With this guide, it should be a piece of cake (now there's a cooking
 term crying out for an Opscode Chef feature).
 
-{% include ninefold_disclose.md %}
+*Originally published at Ninefold (2010-2015), a cloud
+services provider I helped found.*

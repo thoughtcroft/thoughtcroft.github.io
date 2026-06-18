@@ -1,11 +1,13 @@
 ---
-layout:   post
-title:    "Why start your own superfund?"
-date:     2003-11-08
-category: smsf
+layout: post
+title: Why start your own superfund?
+date: 2003-11-08
+categories:
+- smsf
 tags:
-  - investing
-  - superannuation
+- investing
+- superannuation
+redirect_from: "/smsf/why-start-your-own-superfund.html"
 ---
 
 After watching the performance of our personal superannuation and

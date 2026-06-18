@@ -1,12 +1,14 @@
 ---
-layout:   post
-title:    "2005 Super Fund Performance"
-date:     2005-11-09
-category: smsf
+layout: post
+title: 2005 Super Fund Performance
+date: 2005-11-09
+categories:
+- smsf
 tags:
-  - fund performance
-  - roi
-  - superannuation
+- fund performance
+- roi
+- superannuation
+redirect_from: "/smsf/2005-super-fund-performance.html"
 ---
 
 We have just completed our accounts for 2005 and I'm happy to report

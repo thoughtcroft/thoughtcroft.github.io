@@ -1,11 +1,13 @@
 ---
-layout:   post
-title:    "Register of Complying Super Funds"
-date:     2004-01-05
-category: smsf
+layout: post
+title: Register of Complying Super Funds
+date: 2004-01-05
+categories:
+- smsf
 tags:
-  - naming things
-  - superannuation
+- naming things
+- superannuation
+redirect_from: "/smsf/register-of-complying-super-funds.html"
 ---
 
 This contradicts one of my earlier [posts]({% post_url

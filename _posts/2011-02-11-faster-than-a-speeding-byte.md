@@ -1,13 +1,15 @@
 ---
-layout:   post
-title:    "Faster than a speeding byte"
-date:     2011-02-11
-category: cloud
+layout: post
+title: Faster than a speeding byte
+date: 2011-02-11
+categories:
+- cloud
 tags:
-  - latency
-  - network
-  - ninefold
-  - ping
+- latency
+- network
+- ninefold
+- ping
+redirect_from: "/cloud/faster-than-a-speeding-byte.html"
 ---
 
 There are a number of reasons why an Australian cloud server can be
@@ -63,4 +65,5 @@ latency advantage over offshore cloud providers.
 
 And that is something your customers will definitely appreciate.
 
-{% include ninefold_disclose.md %}
+*Originally published at Ninefold (2010-2015), a cloud
+services provider I helped found.*

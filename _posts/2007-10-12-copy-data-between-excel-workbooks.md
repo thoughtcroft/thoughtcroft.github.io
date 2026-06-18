@@ -1,14 +1,16 @@
 ---
-layout:   post
-title:    "Generic function to copy Excel data between workbooks"
-date:     2007-10-12
-category: vba
+layout: post
+title: Generic function to copy Excel data between workbooks
+date: 2007-10-12
+categories:
+- vba
 tags:
-  - excel
-  - password
-  - upload
-  - vba
-  - workbook
+- excel
+- password
+- upload
+- vba
+- workbook
+redirect_from: "/vba/copy-data-between-excel-workbooks.html"
 ---
 
 I needed a way to ensure that some Excel workbooks that were being

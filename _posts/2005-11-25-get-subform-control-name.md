@@ -1,13 +1,15 @@
 ---
-layout:   post
-title:    "Finding the name of a control in an Access subform"
-date:     2005-11-25
-category: vba
+layout: post
+title: Finding the name of a control in an Access subform
+date: 2005-11-25
+categories:
+- vba
 tags:
-  - access
-  - form
-  - subform
-  - vba
+- access
+- form
+- subform
+- vba
+redirect_from: "/vba/get-subform-control-name.html"
 ---
 
 I'm currently developing a Microsoft Access based system and found

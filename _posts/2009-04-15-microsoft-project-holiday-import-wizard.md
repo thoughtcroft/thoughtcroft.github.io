@@ -1,14 +1,16 @@
 ---
-layout:   post
-title:    "Microsoft Project holiday import wizard"
-date:     2009-04-15
-category: vba
+layout: post
+title: Microsoft Project holiday import wizard
+date: 2009-04-15
+categories:
+- vba
 tags:
-  - holiday
-  - import
-  - outlook
-  - project
-  - vba
+- holiday
+- import
+- outlook
+- project
+- vba
+redirect_from: "/vba/microsoft-project-holiday-import-wizard.html"
 ---
 
 Check out this [VBA enabled Microsoft Project

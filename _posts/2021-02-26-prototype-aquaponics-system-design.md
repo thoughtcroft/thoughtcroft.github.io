@@ -1,12 +1,14 @@
 ---
-layout:   post
-title:    "Prototype aquaponic system design"
-date:     2021-02-26
-category: aquaponics
+layout: post
+title: Prototype aquaponic system design
+date: 2021-02-26
+categories:
+- aquaponics
 tags:
 - aquaponics
 - fish
 - garden
+redirect_from: "/aquaponics/prototype-aquaponics-system-design.html"
 ---
 
 I should confess right upfront that I heavily researched (stolen)
@@ -24,19 +26,19 @@ describing how to build such a system and it is very simple:
 - make a bell siphon to drain the top into the bottom
 - fill the top with a suitable grow media
 
-![Chop and Flip Barrel](../resources/barrel_design.png)
+![Chop and Flip Barrel](/assets/img/posts/barrel_design.png)
 
 The grow media I used was LECA (light expanded clay aggregate),
 little clay balls which are full of tiny holes and provide a medium
 for the plants to grow in plus somewhere to host the nitrifying bacteria
 that convert the ammonia exuded by the fish into nitrites and then nitrates.
 
-![LECA](../resources/leca.png)
+![LECA](/assets/img/posts/leca.png)
 
 I initially had some goldfish as my ammonia source and I was growing mostly
 herbs and leafy greens. This worked really well as you can see:
 
-![Chop and Flip Barrel](../resources/barrel_growth.png)
+![Chop and Flip Barrel](/assets/img/posts/barrel_growth.png)
 
 I am currently running the barrel as a "fishless" system by adding
 ammonia directly to the water and supplementing it with nutrients like

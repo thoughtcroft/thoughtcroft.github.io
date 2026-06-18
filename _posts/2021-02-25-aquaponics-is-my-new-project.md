@@ -1,12 +1,14 @@
 ---
-layout:   post
-title:    "My aquaponics journey"
-date:     2021-02-25
-category: aquaponics
+layout: post
+title: My aquaponics journey
+date: 2021-02-25
+categories:
+- aquaponics
 tags:
 - aquaponics
 - fish
 - sustainable
+redirect_from: "/aquaponics/aquaponics-is-my-new-project.html"
 ---
 
 It is now two years since I first became interested in

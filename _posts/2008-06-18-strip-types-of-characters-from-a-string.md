@@ -1,12 +1,14 @@
 ---
-layout:   post
-title:    "Strip different types of characters from a string"
-date:     2008-06-18
-category: vba
+layout: post
+title: Strip different types of characters from a string
+date: 2008-06-18
+categories:
+- vba
 tags:
- - excel
- - string
- - vba
+- excel
+- string
+- vba
+redirect_from: "/vba/strip-types-of-characters-from-a-string.html"
 ---
 
 I realised that one of my earlier posts Generic Function to Copy Excel

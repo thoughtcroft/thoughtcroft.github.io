@@ -1,12 +1,14 @@
 ---
-layout:   post
-title:    "Understanding the INDIRECT function in Excel"
-date:     2009-04-30
-category: random
+layout: post
+title: Understanding the INDIRECT function in Excel
+date: 2009-04-30
+categories:
+- random
 tags:
-  - excel
-  - indirect
-  - workbook
+- excel
+- indirect
+- workbook
+redirect_from: "/random/understanding-the-indirect-function-in-excel.html"
 ---
 
 This is not a VBA issue but a recent discussion on LinkedIn brought up

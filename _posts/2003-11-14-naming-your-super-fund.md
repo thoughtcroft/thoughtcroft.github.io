@@ -1,11 +1,13 @@
 ---
-layout:   post
-title:    "Naming Your Super Fund"
-date:     2003-11-14
-category: smsf
+layout: post
+title: Naming Your Super Fund
+date: 2003-11-14
+categories:
+- smsf
 tags:
-  - naming things
-  - superannuation
+- naming things
+- superannuation
+redirect_from: "/smsf/naming-your-super-fund.html"
 ---
 
 [Law

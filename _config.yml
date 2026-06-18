@@ -1,57 +1,192 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# The Site Configuration
 
-# Site settings
-title:              wazza is awesome
-email:              'warren /at/ bainsworld.com'
-author:             Warren Bain
-description: >
-  A vainglorious attempt to prove Wazza's general awesomeness.
-  Then again, people have actually rated him for that on LinkedIn.
-baseurl:            ''
-url:                'http://wazza-is-awesome.com'
-twitter_username:   thoughtcroft
-github_username:    thoughtcroft
-linkedin_username:  warrenbain
+# Import the theme
+theme: jekyll-theme-chirpy
 
-# Build settings
-permalink:          none
-markdown:           kramdown
-include:
-  - _pages
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+lang: en
+
+# Change to your timezone › https://zones.arilyn.cc
+timezone:
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+
+title: wazza is awesome
+
+tagline: A vainglorious attempt to prove Wazza's general awesomeness
+
+description: >-
+  A vainglorious attempt to prove Wazza's general awesomeness. Then again,
+  people have actually rated him for that on LinkedIn.
+
+# Fill in the protocol & hostname for your site.
+url: "https://wazza-is-awesome.com"
+
+github:
+  username: thoughtcroft
+
+twitter:
+  username: thoughtcroft
+
+social:
+  name: Warren Bain
+  email: warren@thoughtcroft.com
+  fediverse_handle:
+  links:
+    - https://github.com/thoughtcroft
+    - https://twitter.com/thoughtcroft
+    - https://www.linkedin.com/in/warrenbain
+
+# Site Verification Settings
+webmaster_verifications:
+  google:
+  bing:
+  alexa:
+  yandex:
+  baidu:
+  facebook:
+
+# ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
+
+# Web Analytics Settings
+analytics:
+  google:
+    id:
+  goatcounter:
+    id:
+  umami:
+    id:
+    domain:
+  matomo:
+    id:
+    domain:
+  cloudflare:
+    id:
+  fathom:
+    id:
+
+# Page views settings
+pageviews:
+  provider:
+
+# Prefer color scheme setting.
+theme_mode:
+
+# The CDN endpoint for media resources.
+cdn:
+
+# the avatar on sidebar, support local or CORS resources
+avatar:
+
+# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
+social_preview_image:
+
+# boolean type, the global switch for TOC in posts.
+toc: true
+
+comments:
+  provider: giscus
+  disqus:
+    shortname:
+  utterances:
+    repo:
+    issue_term:
+  giscus:
+    repo: thoughtcroft/thoughtcroft.github.io
+    repo_id: MDEwOlJlcG9zaXRvcnk2NDI4OTA0Mw==
+    category: General
+    category_id: DIC_kwDOA9T5E84C_Yr2
+    mapping: pathname
+    strict:
+    input_position: top
+    lang:
+    reactions_enabled: 1
+
+# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+assets:
+  self_host:
+    enabled:
+    env:
+
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+
+paginate: 7
+
+# The base URL of your site
+baseurl: ""
+
+# ------------ The following options are not recommended to be modified ------------------
+
+kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
   - README.md
-  - _gists
+  - LICENSE
+  - Rakefile
+  - "*.config.js"
+  - "package*.json"
 
-# Custom require for plugins if not the name of the gem
-# (otherwise just add to Gemfile)
-gems:
-
-# Pagination
-paginate:           7
-paginate_path:      'page/:num'
-
-# RSS Feed
-max_rss_posts:      10
-
-# Tags
-tag_page_layout:    tag-page
-tag_page_dir:       tag
-max_related_posts:  4
-
-# Disqus
-disqus_id:          'wazza-is-awesome'
-
-# Google
-google_analytics:   'UA-81713354-1'
-
-# Gist
-gist:
-  noscript:         false
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/

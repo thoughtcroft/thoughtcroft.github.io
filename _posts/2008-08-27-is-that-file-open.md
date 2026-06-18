@@ -1,13 +1,15 @@
 ---
-layout:   post
-title:    "Is that file open?"
-date:     2008-08-27
-category: vba
+layout: post
+title: Is that file open?
+date: 2008-08-27
+categories:
+- vba
 tags:
-  - excel
-  - file
-  - windows
-  - vba
+- excel
+- file
+- windows
+- vba
+redirect_from: "/vba/is-that-file-open.html"
 ---
 
 If you ever need to determine if a file is already open before you

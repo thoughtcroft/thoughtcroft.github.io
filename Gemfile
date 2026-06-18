@@ -1,12 +1,17 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem "jekyll", ">= 3.6.3"
-gem "addressable", ">= 2.8.0"
+source "https://rubygems.org"
+
+gem "jekyll-theme-chirpy", "~> 7.5"
 
 group :jekyll_plugins do
-  gem 'jekyll-gist'
-  gem 'jekyll-paginate'
-  gem 'jekyll-tagging'
-  gem 'jekyll-tagging-related_posts'
-  gem 'kramdown', ">= 2.3.1"
+  gem "jekyll-gist"
+  gem "jekyll-redirect-from"
 end
+
+platforms :mswin, :mingw, :x64_mingw, :jruby do
+  gem "tzinfo", ">= 1", "< 3"
+  gem "tzinfo-data"
+end
+
+gem "wdm", "~> 0.2.0", :platforms => [:mswin, :mingw, :x64_mingw]

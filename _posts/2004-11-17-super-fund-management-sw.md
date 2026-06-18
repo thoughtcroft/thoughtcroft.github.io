@@ -1,12 +1,14 @@
 ---
-layout:   post
-title:    "Super Fund management software"
-date:     2004-11-17
-category: smsf
+layout: post
+title: Super Fund management software
+date: 2004-11-17
+categories:
+- smsf
 tags:
-  - ato
-  - fees
-  - superannuation
+- ato
+- fees
+- superannuation
+redirect_from: "/smsf/super-fund-management-sw.html"
 ---
 
 [BGL Corporate Solutions](http://www.bglcorp.com.au/) is the developer

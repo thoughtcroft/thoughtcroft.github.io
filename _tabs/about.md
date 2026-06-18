@@ -1,13 +1,12 @@
 ---
-layout: page
-title: About
-permalink: /about/
+icon: fas fa-info-circle
+order: 4
 ---
 
 Warren Bain, better known as Wazza, is a seasoned IT veteran still on active duty.
 
 Currently he is the product manager for a low-code application
-development platform for  building next-gen web-enabled apps.
+development platform for building next-gen web-enabled apps.
 
 In his career he has worked with many technologies:
 

@@ -1,11 +1,13 @@
 ---
-layout:   post
-title:    "Simple password generator"
-date:     2008-06-24
-category: vba
+layout: post
+title: Simple password generator
+date: 2008-06-24
+categories:
+- vba
 tags:
-  - password
-  - vba
+- password
+- vba
+redirect_from: "/vba/password-generator.html"
 ---
 
 This is a simple digit only password generator that I use for a number

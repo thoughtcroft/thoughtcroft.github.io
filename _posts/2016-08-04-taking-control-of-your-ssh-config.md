@@ -1,15 +1,17 @@
 ---
-layout:   post
-title:    "Simplify server access by using an SSH config file"
-date:     2016-08-04
-category: devops
+layout: post
+title: Simplify server access by using an SSH config file
+date: 2016-08-04
+categories:
+- devops
 tags:
-  - devops
-  - host
-  - keys
-  - password
-  - security
-  - ssh
+- devops
+- host
+- keys
+- password
+- security
+- ssh
+redirect_from: "/devops/taking-control-of-your-ssh-config.html"
 ---
 
 If you are a devops engineer or a developer, at some point you will need

@@ -1,13 +1,15 @@
 ---
-layout:   post
-title:    "2008 Super Fund Performance"
-date:     2008-10-31
-category: smsf
+layout: post
+title: 2008 Super Fund Performance
+date: 2008-10-31
+categories:
+- smsf
 tags:
-  - fund performance
-  - roi
-  - share portfolio
-  - superannuation
+- fund performance
+- roi
+- share portfolio
+- superannuation
+redirect_from: "/smsf/2008-super-fund-performance.html"
 ---
 
 Unfortunately, and as predicted last year, **Bainsworld Superannuation

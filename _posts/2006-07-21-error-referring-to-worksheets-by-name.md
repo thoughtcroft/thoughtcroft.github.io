@@ -1,14 +1,16 @@
 ---
-layout:   post
-title:    "Error when referring to Excel sheets collection by sheet name"
-date:     2006-07-21
-category: vba
+layout: post
+title: Error when referring to Excel sheets collection by sheet name
+date: 2006-07-21
+categories:
+- vba
 tags:
-  - access
-  - excel
-  - textfield
-  - worksheet
-  - vba
+- access
+- excel
+- textfield
+- worksheet
+- vba
+redirect_from: "/vba/error-referring-to-worksheets-by-name.html"
 ---
 
 I've just had a frustrating couple of hours dealing with what appears to

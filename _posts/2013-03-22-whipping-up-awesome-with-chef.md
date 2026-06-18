@@ -1,15 +1,17 @@
 ---
-layout:   post
-title:    "Whipping up awesome with Chef"
-date:     2013-03-22
-category: devops
+layout: post
+title: Whipping up awesome with Chef
+date: 2013-03-22
+categories:
+- devops
 tags:
-  - automation
-  - chef
-  - cloud
-  - devops
-  - infrastructure
-  - ninefold
+- automation
+- chef
+- cloud
+- devops
+- infrastructure
+- ninefold
+redirect_from: "/devops/whipping-up-awesome-with-chef.html"
 ---
 
 This is part 3 of my **Cloud programming** series where I explore Chef,
@@ -198,4 +200,5 @@ extensive use of Berkshelf and I highly recommend reading an
 introduction to authoring cookbooks by Jamie Winsor, the creator of
 Berkshelf.
 
-{% include ninefold_disclose.md %}
+*Originally published at Ninefold (2010-2015), a cloud
+services provider I helped found.*

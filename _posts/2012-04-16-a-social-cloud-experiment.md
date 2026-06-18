@@ -1,12 +1,14 @@
 ---
-layout:   post
-title:    "A social cloud programming experiment"
-date:     2012-04-16
-category: cloud
+layout: post
+title: A social cloud programming experiment
+date: 2012-04-16
+categories:
+- cloud
 tags:
-  - api
-  - ninefold
-  - programming
+- api
+- ninefold
+- programming
+redirect_from: "/cloud/a-social-cloud-experiment.html"
 ---
 
 This is part 1 of my **Cloud programming** series where I embark on a
@@ -100,4 +102,5 @@ your participation in the project. It will be fun and challenging and I
 look forward to working with you. And believe me, given the learning
 curve ahead I am depending on your help!
 
-{% include ninefold_disclose.md %}
+*Originally published at Ninefold (2010-2015), a cloud
+services provider I helped found.*

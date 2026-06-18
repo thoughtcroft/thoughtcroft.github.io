@@ -1,13 +1,15 @@
 ---
-layout:   post
-title:    "How to tell if an Access Report was printed"
-date:     2007-03-01
-category: vba
+layout: post
+title: How to tell if an Access Report was printed
+date: 2007-03-01
+categories:
+- vba
 tags:
-  - access
-  - print
-  - report
-  - vba
+- access
+- print
+- report
+- vba
+redirect_from: "/vba/how-to-tell-if-an-access-report-was-printed.html"
 ---
 
 I needed to be able to determine if an Access Report had been actually

@@ -1,12 +1,14 @@
 ---
-layout:   post
-title:    "How to tell if a file is a Word document"
-date:     2010-04-01
-category: vba
+layout: post
+title: How to tell if a file is a Word document
+date: 2010-04-01
+categories:
+- vba
 tags:
- - file
- - vba
- - word
+- file
+- vba
+- word
+redirect_from: "/vba/how-to-tell-if-a-file-is-a-word-document.html"
 ---
 
 I am building a tool that needs to do something to all the Word
