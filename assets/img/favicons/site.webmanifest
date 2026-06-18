@@ -1,13 +1,7 @@
 {
-  "name": "wazza is awesome",
-  "icons": [
-    {
-      "src": "/assets/img/favicons/favicon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    }
-  ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  "name":"Wazza Is Awesome",
+  "short_name":"Wazza",
+  "display":"standalone",
+  "theme_color":"#d84f1a",
+  "background_color":"#000000"
 }
