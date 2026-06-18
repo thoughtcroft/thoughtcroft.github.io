@@ -14,7 +14,7 @@ task :post do
   filename = "#{date}-#{slug}.md"
   dirname = '_drafts'
   path = File.join(dirname, filename)
-  editor = ENV['EDITOR'] || "vim"
+  editor = ENV['EDITOR'] || "code"
 
   post = <<-"EOF"
 ---
