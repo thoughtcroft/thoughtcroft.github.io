@@ -1,5 +1,6 @@
 {
   "recommendations": [
-    "Shopify.ruby-lsp"
+    "Shopify.ruby-lsp",
+    "github.vscode-github-actions"
   ]
 }
