@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype aquaponic system design
+title: Prototype aquaponics system design
 date: 2021-02-26
 description: A prototype chop-and-flip barrel aquaponics system design using grow media, siphons, ammonia, and leafy greens.
 categories:
@@ -41,7 +41,7 @@ herbs and leafy greens. This worked really well as you can see:
 
 ![Chop and Flip Barrel](/assets/img/posts/barrel_growth.png)
 
-I am currently running the barrel as a "fishless" system by adding
+I am currently running the barrel as a "fish-less" system by adding
 ammonia directly to the water and supplementing it with nutrients like
 "Charlie Carp".
 
@@ -51,5 +51,5 @@ chemical supply companies (about $30 per litre and you probably end up
 on a persons of interest register...).
 
 This chop and flip barrel opened me up to the possibilities of
-Aquaponic growing systems and I have since built a much bigger system
+Aquaponics systems and I have since built a much bigger system
 with fish as the primary ammonia source, which I will cover in a later blog post.

@@ -50,7 +50,7 @@ The point where software brain meets water, fish, bacteria, and
 vegetables.
 
 - [My aquaponics journey]({% post_url 2021-02-25-aquaponics-is-my-new-project %})
-- [Prototype aquaponic system design]({% post_url 2021-02-26-prototype-aquaponics-system-design %})
+- [Prototype aquaponics system design]({% post_url 2021-02-26-prototype-aquaponics-system-design %})
 
 ## Historical SMSF archive
 
@@ -63,4 +63,6 @@ at the time. They are historical notes, not current financial advice.
 
 ## Life, retirement, and whatever comes next
 
-The newer chapter. Less production incident, more Act V.
+The newer chapter. Less production incident, more the next deployment.
+
+- [Act V, Scene 1]({% post_url 2026-06-19-act-v---scene-1 %})

@@ -18,6 +18,7 @@ task :post, [:title, :cat, :date] do |task, args|
 
   post = <<-"EOF"
 ---
+layout: post
 title: #{title}
 date: #{date}
 description:
