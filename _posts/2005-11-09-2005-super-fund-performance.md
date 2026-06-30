@@ -11,6 +11,11 @@ tags:
 redirect_from: "/smsf/2005-super-fund-performance.html"
 ---
 
+> **Archive note:** This post is part of my historical SMSF archive and
+> reflects my fund activity and thinking at the time it was written. It is
+> not current financial, tax, legal, or investment advice, and past
+> performance is not a guide to future returns.
+
 We have just completed our accounts for 2005 and I'm happy to report
 that the **Bainsworld Superannuation Fund returned 17.5%** to its
 members after tax and all expenses for the last year. Not too shabby

@@ -11,6 +11,10 @@ tags:
 redirect_from: "/smsf/super-fund-management-sw.html"
 ---
 
+> **Archive note:** This post is part of my historical SMSF archive and
+> reflects what I was doing or learning at the time it was written. It is
+> not current financial, tax, legal, or investment advice.
+
 [BGL Corporate Solutions](https://www.bglcorp.com/) is the developer
 of Simple Fund, the software we use to administer our SMSF. It is a bit
 more high-powered than we need as it is designed for accountants to

@@ -12,6 +12,11 @@ tags:
 redirect_from: "/smsf/2007-super-fund-performance.html"
 ---
 
+> **Archive note:** This post is part of my historical SMSF archive and
+> reflects my fund activity and thinking at the time it was written. It is
+> not current financial, tax, legal, or investment advice, and past
+> performance is not a guide to future returns.
+
 In typical fashion I have neglected to post information to this blog
 until way after the event.  In that vein, **Bainsworld Superannuation
 Fund produced an investment earnings rate for 2007 of 42.7%**, a huge

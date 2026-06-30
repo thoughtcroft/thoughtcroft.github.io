@@ -10,6 +10,10 @@ tags:
 redirect_from: "/smsf/why-start-your-own-superfund.html"
 ---
 
+> **Archive note:** This post is part of my historical SMSF archive and
+> reflects what I was doing or learning at the time it was written. It is
+> not current financial, tax, legal, or investment advice.
+
 After watching the performance of our personal superannuation and
 testing our investing know-how through an Investment Partnership with 10
 other friends, Caroline and I are about to press the button on starting

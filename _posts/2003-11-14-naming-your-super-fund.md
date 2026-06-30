@@ -10,6 +10,10 @@ tags:
 redirect_from: "/smsf/naming-your-super-fund.html"
 ---
 
+> **Archive note:** This post is part of my historical SMSF archive and
+> reflects what I was doing or learning at the time it was written. It is
+> not current financial, tax, legal, or investment advice.
+
 [Heffron](https://www.heffron.com.au/news/whats-in-a-name)
 answers the question of whether there are any limitations on the name of
 your superfund and other questions.

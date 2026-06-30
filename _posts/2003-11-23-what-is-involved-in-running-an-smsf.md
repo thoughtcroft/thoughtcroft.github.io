@@ -11,6 +11,10 @@ tags:
 redirect_from: "/smsf/what-is-involved-in-running-an-smsf.html"
 ---
 
+> **Archive note:** This post is part of my historical SMSF archive and
+> reflects what I was doing or learning at the time it was written. It is
+> not current financial, tax, legal, or investment advice.
+
 [The Association of Superannuation Funds of Australia
 Limited](https://www.superannuation.asn.au/) used to have advice for Trustees and a pretty good summary of the issues of running your own fund. (I now see that most content is behind a membership login).
 

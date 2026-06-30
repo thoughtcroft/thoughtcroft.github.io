@@ -12,6 +12,11 @@ tags:
 redirect_from: "/smsf/2008-super-fund-performance.html"
 ---
 
+> **Archive note:** This post is part of my historical SMSF archive and
+> reflects my fund activity and thinking at the time it was written. It is
+> not current financial, tax, legal, or investment advice, and past
+> performance is not a guide to future returns.
+
 Unfortunately, and as predicted last year, **Bainsworld Superannuation
 Fund had a negative return of -17.3% for 2008**.
 

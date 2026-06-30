@@ -12,6 +12,11 @@ tags:
 redirect_from: "/smsf/2006-super-fund-performance.html"
 ---
 
+> **Archive note:** This post is part of my historical SMSF archive and
+> reflects my fund activity and thinking at the time it was written. It is
+> not current financial, tax, legal, or investment advice, and past
+> performance is not a guide to future returns.
+
 I just noticed that I forgot to post last year's results for the
 Bainsworld Superannuation Fund. Our *investment earnings rate for 2006
 was 11.7%* which seems a little low given the way the Australian market

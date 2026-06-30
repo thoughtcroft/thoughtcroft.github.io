@@ -11,6 +11,10 @@ tags:
 redirect_from: "/smsf/my-investment-reference-books.html"
 ---
 
+> **Archive note:** This post is part of my historical SMSF archive and
+> reflects what I was doing or learning at the time it was written. It is
+> not current financial, tax, legal, or investment advice.
+
 I've been consuming books like crazy to get ourselves ready for managing
 our super (and as a consequence of starting an Investment Partnership in
 late 2001 with Caroline and 13 other people now down to 12 in total).
