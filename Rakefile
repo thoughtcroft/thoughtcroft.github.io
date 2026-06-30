@@ -18,11 +18,12 @@ task :post, [:title, :cat, :date] do |task, args|
 
   post = <<-"EOF"
 ---
-title:    "#{title}"
-date:     #{date}
-categories: [#{cat}]
+title: "#{title}"
+date: #{date}
+categories:
+- #{cat}
 tags:
-  - #{cat}
+- #{cat}
 ---
 
 # DRAFT!
