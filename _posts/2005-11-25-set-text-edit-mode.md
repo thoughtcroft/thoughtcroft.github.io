@@ -2,6 +2,7 @@
 layout: post
 title: Setting text edit mode on Access form fields made easy
 date: 2005-11-25
+description: A Microsoft Access VBA helper for consistently setting text controls to editable, locked, disabled, or display-only modes.
 categories:
 - vba
 tags:

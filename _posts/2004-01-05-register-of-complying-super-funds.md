@@ -2,6 +2,7 @@
 layout: post
 title: Register of Complying Super Funds
 date: 2004-01-05
+description: A historical note on checking the Register of Complying Super Funds and the limits of choosing a unique fund name.
 categories:
 - smsf
 tags:

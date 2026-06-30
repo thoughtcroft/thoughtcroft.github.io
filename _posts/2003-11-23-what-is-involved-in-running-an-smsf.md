@@ -2,6 +2,7 @@
 layout: post
 title: What is involved in running an SMSF?
 date: 2003-11-23
+description: A historical overview of SMSF trustee responsibilities, small fund statistics, and the work involved in running a fund.
 categories:
 - smsf
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: Simplify server access by using an SSH config file
 date: 2016-08-04
+description: A practical guide to using SSH config files to simplify host access, manage keys, and avoid repeated command options.
 categories:
 - devops
 tags:

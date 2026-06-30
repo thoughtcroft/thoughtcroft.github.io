@@ -2,6 +2,7 @@
 layout: post
 title: Simple password generator
 date: 2008-06-24
+description: A simple digit-only VBA password generator used by other Office automation utilities.
 categories:
 - vba
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: Error in Excel 2007 workbooks open method
 date: 2009-01-28
+description: A VBA troubleshooting note on Excel 2007 Workbooks.Open behavior with xlsx files compared with legacy xls files.
 categories:
 - vba
 tags:

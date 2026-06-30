@@ -2,6 +2,7 @@
 layout: post
 title: My aquaponics journey
 date: 2021-02-25
+description: An introduction to a personal aquaponics project, from basil-growing experiments to fish-powered food production.
 categories:
 - aquaponics
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: Prototype aquaponic system design
 date: 2021-02-26
+description: A prototype chop-and-flip barrel aquaponics system design using grow media, siphons, ammonia, and leafy greens.
 categories:
 - aquaponics
 tags:

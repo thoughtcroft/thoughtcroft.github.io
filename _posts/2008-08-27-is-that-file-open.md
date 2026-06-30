@@ -2,6 +2,7 @@
 layout: post
 title: Is that file open?
 date: 2008-08-27
+description: A reliable VBA technique for checking whether a file is already open before attempting to modify it.
 categories:
 - vba
 tags:

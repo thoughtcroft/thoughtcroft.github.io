@@ -2,6 +2,7 @@
 layout: post
 title: How to write and install an Ohai plugin, the Fight Club way
 date: 2013-07-26
+description: A Chef and Ohai tutorial showing how to add custom node discovery attributes for use in infrastructure recipes.
 categories:
 - devops
 tags:

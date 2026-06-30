@@ -2,6 +2,7 @@
 layout: post
 title: Handling strings containing quotes in SQL
 date: 2010-02-26
+description: A VBA and SQL note on safely handling user input that contains quotes to avoid broken SQL statements.
 categories:
 - vba
 tags:

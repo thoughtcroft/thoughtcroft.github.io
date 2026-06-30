@@ -2,6 +2,7 @@
 layout: post
 title: Microsoft Project holiday import wizard
 date: 2009-04-15
+description: A VBA-enabled Microsoft Project plan for importing public holidays into a project calendar.
 categories:
 - vba
 tags:

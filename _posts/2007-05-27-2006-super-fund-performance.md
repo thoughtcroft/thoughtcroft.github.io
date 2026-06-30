@@ -2,6 +2,7 @@
 layout: post
 title: 2006 Super Fund Performance
 date: 2007-05-27
+description: A historical report on the Bainsworld Superannuation Fund's 2006 return and share portfolio holdings.
 categories:
 - smsf
 tags:

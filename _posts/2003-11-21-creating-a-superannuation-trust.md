@@ -2,6 +2,7 @@
 layout: post
 title: Creating a superannuation trust
 date: 2003-11-21
+description: A historical note on choosing a provider to create an SMSF trust deed and why adviser recommendations matter.
 categories:
 - smsf
 tags:

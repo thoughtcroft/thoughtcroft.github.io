@@ -2,6 +2,7 @@
 layout: post
 title: 2005 Super Fund Performance
 date: 2005-11-09
+description: A historical report on the Bainsworld Superannuation Fund's 2005 return and investment position at the time.
 categories:
 - smsf
 tags:

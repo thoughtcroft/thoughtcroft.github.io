@@ -2,6 +2,7 @@
 layout: post
 title: Taking control of cloud billing
 date: 2011-01-25
+description: A Ninefold cloud article on cost visibility, project budgets, and helping customers control cloud spending.
 categories:
 - cloud
 tags:

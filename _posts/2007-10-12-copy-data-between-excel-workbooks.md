@@ -2,6 +2,7 @@
 layout: post
 title: Generic function to copy Excel data between workbooks
 date: 2007-10-12
+description: A VBA function for copying data between Excel workbooks while validating uploaded customer spreadsheets.
 categories:
 - vba
 tags:

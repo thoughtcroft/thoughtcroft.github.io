@@ -2,6 +2,7 @@
 layout: post
 title: How to tell if an Access Report was printed
 date: 2007-03-01
+description: A Microsoft Access VBA technique for detecting whether a report was printed rather than only previewed on screen.
 categories:
 - vba
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: Super Fund management software
 date: 2004-11-17
+description: A historical review of using BGL Simple Fund software to administer an SMSF and prepare accountant reports.
 categories:
 - smsf
 tags:

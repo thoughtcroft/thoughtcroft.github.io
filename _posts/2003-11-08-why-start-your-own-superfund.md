@@ -2,6 +2,7 @@
 layout: post
 title: Why start your own superfund?
 date: 2003-11-08
+description: A historical note on the reasons for starting a self managed superannuation fund, including fees, control, and investment choice.
 categories:
 - smsf
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: How I learned to stop worrying and love the cloud
 date: 2012-10-08
+description: The second cloud programming article, covering the decision to learn Ruby and build a useful cloud automation tool.
 categories:
 - cloud
 tags:

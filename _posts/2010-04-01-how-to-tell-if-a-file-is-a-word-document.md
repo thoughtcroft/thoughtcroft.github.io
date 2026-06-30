@@ -2,6 +2,7 @@
 layout: post
 title: How to tell if a file is a Word document
 date: 2010-04-01
+description: A VBA technique for identifying Word documents by file signature rather than relying only on file extensions.
 categories:
 - vba
 tags:

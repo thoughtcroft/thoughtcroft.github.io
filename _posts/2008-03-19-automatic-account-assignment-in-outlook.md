@@ -2,6 +2,7 @@
 layout: post
 title: Automatic email account assignment in Outlook
 date: 2008-03-19
+description: A VBA and Outlook automation approach for choosing the correct sending account when managing multiple email addresses.
 categories:
 - vba
 tags:

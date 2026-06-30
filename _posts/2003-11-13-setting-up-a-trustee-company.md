@@ -2,6 +2,7 @@
 layout: post
 title: Setting up a trustee company
 date: 2003-11-13
+description: A historical note on setting up a trustee company for an SMSF and comparing adviser costs with company formation services.
 categories:
 - smsf
 tags:

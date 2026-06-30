@@ -2,6 +2,7 @@
 layout: post
 title: Automation Manager Class
 date: 2008-06-19
+description: A VBA automation manager class for handling Office automation servers consistently from Access and Excel.
 categories:
 - vba
 tags:

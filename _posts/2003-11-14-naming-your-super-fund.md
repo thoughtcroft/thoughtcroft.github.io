@@ -2,6 +2,7 @@
 layout: post
 title: Naming Your Super Fund
 date: 2003-11-14
+description: A historical note on naming a self managed superannuation fund and whether SMSF names need to be unique.
 categories:
 - smsf
 tags:

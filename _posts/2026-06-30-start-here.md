@@ -3,7 +3,7 @@ layout: post
 title: Start Here
 date: 2026-06-30
 categories:
-- meta
+- site
 tags:
 - start here
 - archive

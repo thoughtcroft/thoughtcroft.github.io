@@ -2,6 +2,7 @@
 layout: post
 title: Calculating compound annual growth rate (CAGR)
 date: 2005-11-30
+description: An Excel user-defined function for calculating compound annual growth rate from a start value, end value, and duration.
 categories:
 - random
 tags:

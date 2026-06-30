@@ -2,6 +2,7 @@
 layout: post
 title: Error when referring to Excel sheets collection by sheet name
 date: 2006-07-21
+description: A VBA troubleshooting note on an Excel Sheets collection error when accessing worksheets by name from Access.
 categories:
 - vba
 tags:

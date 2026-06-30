@@ -2,6 +2,7 @@
 layout: post
 title: A social cloud programming experiment
 date: 2012-04-16
+description: The first cloud programming article introducing a project to build a tool for starting and stopping cloud servers.
 categories:
 - cloud
 tags:

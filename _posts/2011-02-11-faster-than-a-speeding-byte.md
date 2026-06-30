@@ -2,6 +2,7 @@
 layout: post
 title: Faster than a speeding byte
 date: 2011-02-11
+description: A Ninefold cloud article exploring latency and why Australian cloud hosting can matter for local users.
 categories:
 - cloud
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: Finding the name of a control in an Access subform
 date: 2005-11-25
+description: A Microsoft Access VBA helper for finding the parent subform control name from code running inside a subform.
 categories:
 - vba
 tags:

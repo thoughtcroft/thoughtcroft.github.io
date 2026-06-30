@@ -2,6 +2,7 @@
 layout: post
 title: Understanding the INDIRECT function in Excel
 date: 2009-04-30
+description: An explanation of Excel's INDIRECT function and how to use it to construct dynamic references to named ranges.
 categories:
 - random
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: Whipping up awesome with Chef
 date: 2013-03-22
+description: The third cloud programming article, introducing Chef infrastructure automation and its role in the project.
 categories:
 - devops
 tags:

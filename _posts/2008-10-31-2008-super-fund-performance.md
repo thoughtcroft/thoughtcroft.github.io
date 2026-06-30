@@ -2,6 +2,7 @@
 layout: post
 title: 2008 Super Fund Performance
 date: 2008-10-31
+description: A historical report on the Bainsworld Superannuation Fund's 2008 loss during the market downturn.
 categories:
 - smsf
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: Strip different types of characters from a string
 date: 2008-06-18
+description: A small VBA utility for stripping control characters and other unwanted character ranges from strings.
 categories:
 - vba
 tags:

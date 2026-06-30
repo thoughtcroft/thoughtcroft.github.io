@@ -2,6 +2,7 @@
 layout: post
 title: My investment reference books
 date: 2003-11-09
+description: A historical reading list of investment and self managed superannuation books used while preparing to manage an SMSF.
 categories:
 - smsf
 tags:
