@@ -92,7 +92,7 @@ end
 ```
 
 For a more detailed and highly readable explanation, check out the
-[Anatomy of a Chef Run](https://docs.chef.io/chef_client.html).
+[Anatomy of a Chef Run](https://github.com/jhotta/chef-fundamentals-ja/blob/master/slides/anatomy-of-a-chef-run/01_slide.md).
 
 ### Tip 2 -  The cause of chef run terminating with "undefined method '[]' for nil:NilClass"
 
@@ -171,8 +171,7 @@ $ knife block list
 
 ### Tip 4 -  Manage cookbook dependencies using Berkshelf
 
-As [Berkshelf](http://berkshelf.com) states “If you're familiar with Bundler, then
-Berkshelf is a breeze”.
+As [Berkshelf](http://berkshelf.com) states “If you're familiar with Bundler, then Berkshelf is a breeze”.
 
 A cookbook's metadata.rb file uses 'depends' clauses to specify cookbook
 dependencies – at Ninefold, we almost always specify exact versions to

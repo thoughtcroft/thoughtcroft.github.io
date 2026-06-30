@@ -10,10 +10,13 @@ tags:
 redirect_from: "/smsf/naming-your-super-fund.html"
 ---
 
-[Law
-Central](http://lawcentral.com.au/LearnAboutLaw/CategoryDetail.asp?ID=2&pageID=7#Whatisinaname?)
+[Heffron](https://www.heffron.com.au/news/whats-in-a-name)
 answers the question of whether there are any limitations on the name of
-your superfund and other questions. In summary:
+your superfund and other questions.
+
+> Note: this used to be an article on Law Central but that is now paywalled.
+
+In summary:
 
 * you can use any name you like
 * it doesn't have to be unique

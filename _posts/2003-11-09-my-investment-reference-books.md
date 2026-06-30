@@ -17,15 +17,15 @@ late 2001 with Caroline and 13 other people now down to 12 in total).
 
 These include:
 
-* [Do It Yourself Superannuation](http://www.bookdepository.com/DIY-Superannuation-Austin-Donnelly/9780701636906) by Austin Donnelly and Barbara Smith (4th Edition)
-* [Guide To Self Managed Super Funds](http://www.bookdepository.com/Guide-Self-Managed-Super-Funds-Grant-Abbott/9781864686388?ref=grid-view) by Grant Abbott
-* [The Intelligent Investor](http://www.bookdepository.com/The-Intelligent-Investor-Benjamin-Graham/9780060155476?ref=grid-view) by Benjamin Graham
-* [Security Analysis](http://www.bookdepository.com/Security-Analysis-Benjamin-Graham-David-Dodd/9780070244962?ref=grid-view) by Benjamin Graham and David Dodd
-* [A Wonderful Company At A Fair Price](http://catalogue.nla.gov.au/Record/998669) by Brian McNiven
-* [Borrowing To Invest](http://www.bookdepository.com/Borrowing-Invest-Noel-Whittaker-Paul-Resnik/9780731811724?ref=grid-view) by Noel Whittaker and Paul Resnik
-* [The Intelligent Investors Guide to Share Buying](http://www.bookdepository.com/The-Intelligent-Investors-Guide-Share-Buying-Tim-Hewat/9780701636746?ref=grid-view) by Tim Hewat
-* [The Warren Buffett Way](http://www.bookdepository.com/The-Warren-Buffett-Way-Robert-G-Hagstrom/9780471177500?ref=grid-view) by Robert G Hagstrom
-* [The Warren Buffett Portfolio](http://www.bookdepository.com/The-Warren-Buffett-Portfolio-Robert-G-Hagstrom/9780471392644?ref=grid-view) by Robert G Hagstrom
+* [Do It Yourself Superannuation](https://isbnsearch.org/isbn/9781875857692) by Austin Donnelly and Barbara Smith (4th Edition)
+* [Guide To Self Managed Super Funds](https://isbnsearch.org/isbn/9781921022852) by Grant Abbott
+* [The Intelligent Investor](https://isbnsearch.org/isbn/9780060555665) by Benjamin Graham
+* [Security Analysis](https://isbnsearch.org/isbn/9780070244962) by Benjamin Graham and David Dodd
+* [A Wonderful Company At A Fair Price](https://isbnsearch.org/isbn/9780731407934) by Brian McNiven
+* [Borrowing To Invest](hhttps://isbnsearch.org/isbn/9780731811724) by Noel Whittaker and Paul Resnik
+* [The Intelligent Investors Guide to Share Buying](https://isbnsearch.org/isbn/9781875857616) by Tim Hewat
+* [The Warren Buffett Way](https://isbnsearch.org/isbn/9780471743675) by Robert G Hagstrom
+* [The Warren Buffett Portfolio](https://isbnsearch.org/isbn/9781402871689) by Robert G Hagstrom
 
 The Brian McNiven book is fantastic! He provides terrific insight into
 the real story behind company financial reports and when dividend

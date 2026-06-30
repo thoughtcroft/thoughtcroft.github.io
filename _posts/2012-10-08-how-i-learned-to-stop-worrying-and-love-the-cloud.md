@@ -18,7 +18,7 @@ crash-course in learning Ruby.
 
 When I first read the list of language features in the [Wikipedia entry
 on the Ruby programming
-language](https://en.wikipedia.org/wiki/Ruby_(programming_language), I
+language](https://en.wikipedia.org/wiki/Ruby_programming_language), I
 started screaming like a two year old.  Seriously, I did computer
 science at ANU in the late (mumble)ties but I don’t remember learning
 anything about first class continuations, closures, fibers or
@@ -41,14 +41,11 @@ ourselves).
 
 I like good documentation, which can be a problem in open source
 projects (The code is the documentation, dude! Really?), so I was
-pleased to see that the Windows install includes [The Book of
-Ruby](https://www.amazon.com.au/Book-Ruby-Hands--Guide-Adventurous-ebook/dp/B005EI84QA/ref=sr_1_4?s=digital-text&ie=UTF8&qid=1469689781&sr=1-4)
+pleased to see that the Windows install includes [The Book of Ruby](https://www.amazon.com.au/Book-Ruby-Hands--Guide-Adventurous-ebook/dp/B005EI84QA/ref=sr_1_4?s=digital-text&ie=UTF8&qid=1469689781&sr=1-4)
 by Huw Collingbourne. However, the edition I got was based on Ruby 1.8
 not the 1.9 version that was installed. So I headed over to [The
 Pragmatic Bookshelf](https://pragprog.com/) for a copy of the complete
-reference guide to [Programming Ruby
-1.9](https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0) by Dave
-Thomas, otherwise known as the “PickAxe”. I have found this book
+reference guide to [Programming Ruby 1.9](https://pragprog.com/titles/ruby4/programming-ruby-1-9-2-0-4th-edition/) by Dave Thomas, otherwise known as the “PickAxe”. I have found this book
 invaluable. On a side note, I love that you can set up your Pragmatic
 account so that when you purchase an e-book it is automatically
 delivered to your Dropbox and Kindle within minutes.
@@ -59,12 +56,11 @@ editor.  I’ll explain more about this choice in a future blog.
 
 I then embarked on a self-directed learning program.
 
-I read through (and even understood some of) [Why’s Poignant Guide to
-Ruby](http://poignant.guide/). This tries to twist your head into the
+I read through (and even understood some of) [Why’s Poignant Guide to Ruby](http://poignant.guide/). This tries to twist your head into the
 same dimension as the author which in my case was only moderately
 successful, but it did whet my appetite with a taste of Ruby’s beauty.
 
-[Try Ruby](http://tryruby.org/) is an interactive tutorial, providing a
+[Try Ruby](https://try.ruby-lang.org/) is an interactive tutorial, providing a
 basic introduction to the language via a browser based REPL (that’s
 read-eval-print-loop or “console” for the rest of us). Like everyone
 else, my first Ruby line of code was: `puts "Hello World!"`

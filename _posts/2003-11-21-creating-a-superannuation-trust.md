@@ -10,7 +10,7 @@ tags:
 redirect_from: "/smsf/creating-a-superannuation-trust.html"
 ---
 
-[Castle Corporate Services](http://www.castlecorp.com.au/site/suppc.htm)
+[Castle Corporate Services](https://www.castlecorp.com.au/products/self-managed-super-funds/)
 is the company used by Taxpayers Australia to create Trust Deeds for an
 SMSF. There are obviously many different companies doing this.
 

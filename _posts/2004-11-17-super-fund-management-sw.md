@@ -11,7 +11,7 @@ tags:
 redirect_from: "/smsf/super-fund-management-sw.html"
 ---
 
-[BGL Corporate Solutions](http://www.bglcorp.com.au/) is the developer
+[BGL Corporate Solutions](https://www.bglcorp.com/) is the developer
 of Simple Fund, the software we use to administer our SMSF. It is a bit
 more high-powered than we need as it is designed for accountants to
 manage multiple funds on behalf of their clients including doing audits
