@@ -3,12 +3,18 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Warren Bain, better known as Wazza, is a seasoned IT veteran recently retired from active duty.
+I'm Warren Bain, though most people who have known me for more than five
+minutes call me Wazza.
 
-Most recently he was the product manager for a low-code application
+This blog is part notebook, part archive, and part evidence trail from a
+long career spent learning things the practical way. You'll find old VBA
+tricks, cloud and automation notes, SMSF history, aquaponics experiments,
+and whatever catches my interest now that I'm retired from active duty.
+
+Most recently I was the product manager for a low-code application
 development platform for building next-gen web-enabled apps.
 
-In his career he has worked with many technologies:
+Over the years I have worked with many technologies:
 
 * IBM/360 assembler and COBOL before there were personal computers
 * VBA app development in Microsoft Office products
@@ -17,11 +23,13 @@ In his career he has worked with many technologies:
 * IoT development on Arduino / ESP8266 and using Thingsboard
 * Enterprise web apps built using .NET, TypeScript, Vue.js, SQL Server
 
-Wazza has always been excited to learn new things and use them to solve real business problems. More than a technologist, Wazza has also
+I have always been excited to learn new things and use them to solve real
+business problems. More than a technologist, I have also
 
 * written business cases that get approved
 * presented at the C & Board level and everywhere below
 * delivered conference talks
-* shared his knowledge and experience via consulting and mentoring
+* shared my knowledge and experience via consulting and mentoring
 
-This blog shares some of the things Wazza has learned along the way, and touches on his diverse professional and personal interests.
+This blog shares some of the things I have learned along the way, and
+touches on my diverse professional and personal interests.
